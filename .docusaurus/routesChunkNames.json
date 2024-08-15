@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/mantis/docs-127": {
+  "/mantis/docs-6b8": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/mantis/docs-9ae": {
+  "/mantis/docs-1ab": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---mantis-docsd-8-a-a8a"
   },
-  "/mantis/docs-0cb": {
+  "/mantis/docs-610": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/mantis/docs/concepts/about-abb": {
@@ -142,9 +142,9 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-rollup-svm-sequencerb-5-f-7f3"
   },
-  "/mantis/docs/rollup/tx-lifestyle-de6": {
+  "/mantis/docs/rollup/tx-lifecycle-566": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-rollup-tx-lifestyle-4-d-9-c33"
+    "content": "content---mantis-docs-rollup-tx-lifecycle-95-d-33a"
   },
   "/mantis/docs/solvers/develop-f1c": {
     "__comp": "__comp---theme-doc-item-178-a40",

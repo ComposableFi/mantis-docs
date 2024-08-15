@@ -1,3 +1,5 @@
+
+
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
@@ -10,12 +12,10 @@ const config: Config = {
   url: 'https://docs.mantis.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mantis',
+  baseUrl: '/docs/mantis',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Composable Finance', // Usually your GitHub org/user name.
-  projectName: 'mantis-docs', // Usually your repo name.
+  organizationName: 'Composable Finance', 
+  projectName: 'mantis-docs', 
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -34,8 +34,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ComposableFi/mantis-docs',
         },
@@ -57,39 +55,39 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Site Title',  // The title of the site goes here
+      title: 'Mantis Documentation', 
       logo: {
         alt: 'My Site Logo', // The description to the logo goes here
         src: 'img/logo.svg', // The logo of the business goes here
       },
       items: [
         {
-          type: 'docSidebar', // Signifies that the sidebar is for documentation and will come from the sidebar.ts or js
-          sidebarId: 'concepts',  // Id to target a soecific sidebar item in the sidebar.ts
-          position: 'left', // Represents the position of the item on the top nav bar
+          type: 'docSidebar', 
+          sidebarId: 'concepts',  
+          position: 'left', // 
           label: 'Concepts',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'protocol',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'protocol',  
           position: 'left',
           label: 'Protocol',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'rollup',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'rollup',  
           position: 'left',
           label: 'Rollup',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'solvers',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'solvers',  
           position: 'left',
           label: 'Solvers',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'user_guides',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'user_guides',  
           position: 'left',
           label: 'User Guides',
         },
@@ -98,15 +96,17 @@ const config: Config = {
              label: 'Research',
              position: 'right',
            },
+           {
+            label: 'Whitepaper',
+            href: 'https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf',
+            position: 'right',
+          },
       ],
     },
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Community',
-          items: [
-            {
+           {
               label: 'X',
               href: 'https://x.com/mantis',
             },
@@ -114,11 +114,6 @@ const config: Config = {
               label: 'Discord',
               href: 'https://discord.com/invite/N82fRBKQND',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
               label: 'Blog',
               href: 'https://mirror.xyz/0x2e9907036C62d7dAb6775FbF49E84E4c74562526',
@@ -127,13 +122,8 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/composablefi',
             },
-            {
-              label: 'Whitepaper',
-              href: 'https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf',
-            }
+
           ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} Composable Foundation`,
     },
     prism: {
@@ -142,5 +132,3 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 };
-
-export default config;

@@ -1,0 +1,20 @@
+{
+  "id": "rollup/tx-lifecycle",
+  "title": "Transaction Lifecycle",
+  "description": "Transactions settle down from layer 2 (the Mantis rollup) to layer 1 (the destination chain of the transaction):",
+  "source": "@site/docs/rollup/tx-lifecycle.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/tx-lifecycle",
+  "permalink": "/mantis/docs/rollup/tx-lifecycle",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/tx-lifecycle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "SVM and Sequencer",
+    "permalink": "/mantis/docs/rollup/svm-sequencer"
+  }
+}
