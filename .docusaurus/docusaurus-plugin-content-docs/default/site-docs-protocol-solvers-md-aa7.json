@@ -1,0 +1,24 @@
+{
+  "id": "protocol/solvers",
+  "title": "Solvers",
+  "description": "The solver role is critical to Mantis and the chain-agnostic execution of user intents. To summarize the role, a solver:",
+  "source": "@site/docs/protocol/solvers.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/solvers",
+  "permalink": "/mantis/docs/protocol/solvers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/solvers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Roadmap",
+    "permalink": "/mantis/docs/protocol/roadmap"
+  },
+  "next": {
+    "title": "Mantis Token",
+    "permalink": "/mantis/docs/protocol/token"
+  }
+}

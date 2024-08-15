@@ -1,0 +1,24 @@
+{
+  "id": "concepts/mev",
+  "title": "Understanding Cross-Domain MEV",
+  "description": "A cross-domain intent settlement platform like Mantis reshapes an emerging type of maximal extractible value (MEV): cross-chain or cross-domain MEV.",
+  "source": "@site/docs/concepts/mev.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/mev",
+  "permalink": "/mantis/docs/concepts/mev",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/mev.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "concepts",
+  "previous": {
+    "title": "Learn",
+    "permalink": "/mantis/docs/concepts/learn"
+  },
+  "next": {
+    "title": "Mantis Use Cases",
+    "permalink": "/mantis/docs/concepts/use-cases"
+  }
+}

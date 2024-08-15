@@ -1,0 +1,24 @@
+{
+  "id": "rollup/svm-sequencer",
+  "title": "SVM and Sequencer",
+  "description": "The Mantis rollup’s execution engine is a lightweight Solana Virtual Machine (SVM) with a sequencer similar to the Jito validator client. The sequencer interacts directly with the bridge contract on Solana mainnet for unlocking and routing funds to other chains.",
+  "source": "@site/docs/rollup/svm-sequencer.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/svm-sequencer",
+  "permalink": "/mantis/docs/rollup/svm-sequencer",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/svm-sequencer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "The Mantis Rollup",
+    "permalink": "/mantis/docs/rollup/mantis"
+  },
+  "next": {
+    "title": "Transaction Lifecycle",
+    "permalink": "/mantis/docs/rollup/tx-lifestyle"
+  }
+}

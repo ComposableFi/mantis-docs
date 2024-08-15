@@ -1,0 +1,20 @@
+{
+  "id": "concepts/use-cases",
+  "title": "Mantis Use Cases",
+  "description": "UX: Execute Anywhere from One Location",
+  "source": "@site/docs/concepts/use-cases.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/use-cases",
+  "permalink": "/mantis/docs/concepts/use-cases",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/use-cases.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "concepts",
+  "previous": {
+    "title": "Understanding Cross-Domain MEV",
+    "permalink": "/mantis/docs/concepts/mev"
+  }
+}

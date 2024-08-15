@@ -1,0 +1,24 @@
+{
+  "id": "rollup/interop",
+  "title": "Interoperability with L1s",
+  "description": "Mantis utilizes the Inter-Blockchain Communication (IBC) Protocol for cross-chain interoperability with credible commitments. More specifically, Mantis uses the IBC connections created by the Picasso Network.",
+  "source": "@site/docs/rollup/interop.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/interop",
+  "permalink": "/mantis/docs/rollup/interop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/interop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "Fee Structure",
+    "permalink": "/mantis/docs/rollup/fees"
+  },
+  "next": {
+    "title": "The Mantis Rollup",
+    "permalink": "/mantis/docs/rollup/mantis"
+  }
+}

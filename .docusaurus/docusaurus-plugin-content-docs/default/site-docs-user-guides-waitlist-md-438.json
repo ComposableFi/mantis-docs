@@ -1,0 +1,16 @@
+{
+  "id": "user_guides/waitlist",
+  "title": "Waitlist",
+  "description": "We are holding a waitlist period for Mantis. Participants on the waitlist can sign a message and commit total value locked to the Mantis rollup from any chain. Then, they will get early access to Mantis features and become eligible for rewards:",
+  "source": "@site/docs/user_guides/waitlist.md",
+  "sourceDirName": "user_guides",
+  "slug": "/user_guides/waitlist",
+  "permalink": "/mantis/docs/user_guides/waitlist",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/user_guides/waitlist.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "user_guides"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "concepts/about",
+  "title": "About Us",
+  "description": "The Journey to Mantis",
+  "source": "@site/docs/concepts/about.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/about",
+  "permalink": "/mantis/docs/concepts/about",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/about.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "concepts",
+  "next": {
+    "title": "Definitions",
+    "permalink": "/mantis/docs/concepts/definitions"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "protocol/roadmap",
+  "title": "Roadmap",
+  "description": "Immediate Roadmap",
+  "source": "@site/docs/protocol/roadmap.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/roadmap",
+  "permalink": "/mantis/docs/protocol/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Mantis Virtual Machine",
+    "permalink": "/mantis/docs/protocol/mvm"
+  },
+  "next": {
+    "title": "Solvers",
+    "permalink": "/mantis/docs/protocol/solvers"
+  }
+}

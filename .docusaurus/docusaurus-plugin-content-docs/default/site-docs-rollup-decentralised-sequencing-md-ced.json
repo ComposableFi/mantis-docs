@@ -1,0 +1,24 @@
+{
+  "id": "rollup/decentralised-sequencing",
+  "title": "Decentralized Sequencing",
+  "description": "Sequencers are network nodes that play critical roles on a rollup. These roles include:",
+  "source": "@site/docs/rollup/decentralised-sequencing.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/decentralised-sequencing",
+  "permalink": "/mantis/docs/rollup/decentralised-sequencing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/decentralised-sequencing.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "Data Types",
+    "permalink": "/mantis/docs/rollup/data-types"
+  },
+  "next": {
+    "title": "Fee Structure",
+    "permalink": "/mantis/docs/rollup/fees"
+  }
+}

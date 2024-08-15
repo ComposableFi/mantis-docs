@@ -1,0 +1,24 @@
+{
+  "id": "rollup/bridge-contract",
+  "title": "Bridge Contract",
+  "description": "Deposits",
+  "source": "@site/docs/rollup/bridge-contract.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/bridge-contract",
+  "permalink": "/mantis/docs/rollup/bridge-contract",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/bridge-contract.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "The Mantis Rollup",
+    "permalink": "/mantis/docs/rollup/mantis"
+  },
+  "next": {
+    "title": "Data Types",
+    "permalink": "/mantis/docs/rollup/data-types"
+  }
+}

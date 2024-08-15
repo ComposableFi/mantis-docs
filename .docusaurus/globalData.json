@@ -1,0 +1,166 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/mantis/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/mantis/docs",
+          "mainDocId": "concepts/about",
+          "docs": [
+            {
+              "id": "concepts/about",
+              "path": "/mantis/docs/concepts/about",
+              "sidebar": "concepts"
+            },
+            {
+              "id": "concepts/definitions",
+              "path": "/mantis/docs/concepts/definitions",
+              "sidebar": "concepts"
+            },
+            {
+              "id": "concepts/learn",
+              "path": "/mantis/docs/concepts/learn",
+              "sidebar": "concepts"
+            },
+            {
+              "id": "concepts/mev",
+              "path": "/mantis/docs/concepts/mev",
+              "sidebar": "concepts"
+            },
+            {
+              "id": "concepts/use-cases",
+              "path": "/mantis/docs/concepts/use-cases",
+              "sidebar": "concepts"
+            },
+            {
+              "id": "mantis",
+              "path": "/mantis/docs/mantis"
+            },
+            {
+              "id": "protocol/audits",
+              "path": "/mantis/docs/protocol/audits",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/ecosystem",
+              "path": "/mantis/docs/protocol/ecosystem",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/mantis",
+              "path": "/mantis/docs/protocol/mantis",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/mvm",
+              "path": "/mantis/docs/protocol/mvm",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/roadmap",
+              "path": "/mantis/docs/protocol/roadmap",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/solvers",
+              "path": "/mantis/docs/protocol/solvers",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/token",
+              "path": "/mantis/docs/protocol/token",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "rollup/bridge-contract",
+              "path": "/mantis/docs/rollup/bridge-contract",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/data-types",
+              "path": "/mantis/docs/rollup/data-types",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/decentralised-sequencing",
+              "path": "/mantis/docs/rollup/decentralised-sequencing",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/fees",
+              "path": "/mantis/docs/rollup/fees",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/interop",
+              "path": "/mantis/docs/rollup/interop",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/mantis",
+              "path": "/mantis/docs/rollup/mantis",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/svm-sequencer",
+              "path": "/mantis/docs/rollup/svm-sequencer",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "rollup/tx-lifestyle",
+              "path": "/mantis/docs/rollup/tx-lifestyle",
+              "sidebar": "rollup"
+            },
+            {
+              "id": "solvers/develop",
+              "path": "/mantis/docs/solvers/develop",
+              "sidebar": "solvers"
+            },
+            {
+              "id": "user_guides/waitlist",
+              "path": "/mantis/docs/user_guides/waitlist",
+              "sidebar": "user_guides"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "concepts": {
+              "link": {
+                "path": "/mantis/docs/concepts/about",
+                "label": "concepts/about"
+              }
+            },
+            "protocol": {
+              "link": {
+                "path": "/mantis/docs/protocol/mantis",
+                "label": "Protocol"
+              }
+            },
+            "rollup": {
+              "link": {
+                "path": "/mantis/docs/rollup/mantis",
+                "label": "Rollup"
+              }
+            },
+            "solvers": {
+              "link": {
+                "path": "/mantis/docs/solvers/develop",
+                "label": "Solvers"
+              }
+            },
+            "user_guides": {
+              "link": {
+                "path": "/mantis/docs/user_guides/waitlist",
+                "label": "user_guides/waitlist"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

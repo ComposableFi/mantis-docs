@@ -1,0 +1,24 @@
+{
+  "id": "protocol/audits",
+  "title": "Audits",
+  "description": "Mantis is completing an audit with Ottersec, an auditing firm that has secured leading projects such as the Solana Foundation, OlympusDAO, Algorand, Sui, and Squads. Thus far, Ottersec has secured over $5.69 billion in total value locked, with over $1 billion in vulnerabilities patched.",
+  "source": "@site/docs/protocol/audits.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/audits",
+  "permalink": "/mantis/docs/protocol/audits",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/audits.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "The Mantis Protocol",
+    "permalink": "/mantis/docs/protocol/mantis"
+  },
+  "next": {
+    "title": "Ecosystem",
+    "permalink": "/mantis/docs/protocol/ecosystem"
+  }
+}

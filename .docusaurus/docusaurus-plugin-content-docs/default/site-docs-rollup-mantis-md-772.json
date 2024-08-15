@@ -1,0 +1,20 @@
+{
+  "id": "rollup/mantis",
+  "title": "The Mantis Rollup",
+  "description": "A core component of Mantis is the Mantis rollup. Previously, rollups have been limited to the optimistic or ZK rollups in the Ethereum ecosystem. To meet its own unique needs, Mantis created its own rollup design on Solana.",
+  "source": "@site/docs/rollup/mantis.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/mantis",
+  "permalink": "/mantis/docs/rollup/mantis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/mantis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "next": {
+    "title": "Bridge Contract",
+    "permalink": "/mantis/docs/rollup/bridge-contract"
+  }
+}

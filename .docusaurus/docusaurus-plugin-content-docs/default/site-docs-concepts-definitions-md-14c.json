@@ -1,0 +1,24 @@
+{
+  "id": "concepts/definitions",
+  "title": "Definitions",
+  "description": "Block Builder: An entity that constructs blocks from transaction order flow. On Mantis, block builders from other ecosystems can also plug in to share their mempools.",
+  "source": "@site/docs/concepts/definitions.md",
+  "sourceDirName": "concepts",
+  "slug": "/concepts/definitions",
+  "permalink": "/mantis/docs/concepts/definitions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/definitions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "concepts",
+  "previous": {
+    "title": "About Us",
+    "permalink": "/mantis/docs/concepts/about"
+  },
+  "next": {
+    "title": "Learn",
+    "permalink": "/mantis/docs/concepts/learn"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "protocol/ecosystem",
+  "title": "Ecosystem",
+  "description": "The components of the Mantis ecosystem synergize with the Picasso Network and the IBC Protocol. This enables Mantis’s cross-chain capability.",
+  "source": "@site/docs/protocol/ecosystem.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/ecosystem",
+  "permalink": "/mantis/docs/protocol/ecosystem",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/ecosystem.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Audits",
+    "permalink": "/mantis/docs/protocol/audits"
+  },
+  "next": {
+    "title": "The Mantis Protocol",
+    "permalink": "/mantis/docs/protocol/mantis"
+  }
+}

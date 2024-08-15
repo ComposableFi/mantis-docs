@@ -1,0 +1,24 @@
+{
+  "id": "rollup/data-types",
+  "title": "Data Types",
+  "description": "On-chain data on the Mantis rollup comes from:",
+  "source": "@site/docs/rollup/data-types.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/data-types",
+  "permalink": "/mantis/docs/rollup/data-types",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/data-types.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "Bridge Contract",
+    "permalink": "/mantis/docs/rollup/bridge-contract"
+  },
+  "next": {
+    "title": "Decentralized Sequencing",
+    "permalink": "/mantis/docs/rollup/decentralised-sequencing"
+  }
+}

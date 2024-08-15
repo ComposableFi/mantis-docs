@@ -1,0 +1,19 @@
+{
+  "id": "mantis",
+  "title": "Mantis Protocol Overview",
+  "description": "Mantis is a vertically integrated intent pipeline complete with expression, execution, and settlement. This is accomplished via the Mantis protocol and Mantis rollup.",
+  "source": "@site/docs/mantis.md",
+  "sourceDirName": ".",
+  "slug": "/mantis",
+  "permalink": "/mantis/docs/mantis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/mantis.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Mantis Protocol Overview",
+    "sidebar_position": 1
+  }
+}

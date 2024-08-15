@@ -1,0 +1,24 @@
+{
+  "id": "protocol/mvm",
+  "title": "Mantis Virtual Machine",
+  "description": "The Mantis Virtual Machine (MantisVM) is an orchestration language and execution runtime for cross-chain program execution and intent settlement over Picasso (IBC). This VM enables a few key functionalities for the Mantis protocol:",
+  "source": "@site/docs/protocol/mvm.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/mvm",
+  "permalink": "/mantis/docs/protocol/mvm",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/mvm.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "The Mantis Protocol",
+    "permalink": "/mantis/docs/protocol/mantis"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/mantis/docs/protocol/roadmap"
+  }
+}

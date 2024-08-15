@@ -1,0 +1,20 @@
+{
+  "id": "protocol/mantis",
+  "title": "The Mantis Protocol",
+  "description": "On the Mantis rollup resides the Mantis protocol that facilitates optimal execution of cross-domain intent via a competition of solvers. In this protocol, users sign intents which are contained on a private rollup mempool. Solvers are staked agents that can a) observe the intents in the mempool and b) post solutions to intents in the auctioneer contract. The auctioneer contract scores the solutions based on how well they fit constraints the user has set. The winner of the auction is responsible for settling the intent along the execution path they have proposed.",
+  "source": "@site/docs/protocol/mantis.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/mantis",
+  "permalink": "/mantis/docs/protocol/mantis",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/mantis.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "next": {
+    "title": "Audits",
+    "permalink": "/mantis/docs/protocol/audits"
+  }
+}

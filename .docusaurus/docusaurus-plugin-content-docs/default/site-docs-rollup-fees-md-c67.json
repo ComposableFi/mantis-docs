@@ -1,0 +1,24 @@
+{
+  "id": "rollup/fees",
+  "title": "Fee Structure",
+  "description": "Initially, we will use the fee structure of Solana on the Mantis rollup. Later, we aim to implement a more dynamic fee model.",
+  "source": "@site/docs/rollup/fees.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/fees",
+  "permalink": "/mantis/docs/rollup/fees",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/fees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "rollup",
+  "previous": {
+    "title": "Decentralized Sequencing",
+    "permalink": "/mantis/docs/rollup/decentralised-sequencing"
+  },
+  "next": {
+    "title": "Interoperability with L1s",
+    "permalink": "/mantis/docs/rollup/interop"
+  }
+}

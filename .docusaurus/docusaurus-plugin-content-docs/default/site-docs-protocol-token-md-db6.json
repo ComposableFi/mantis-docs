@@ -1,0 +1,20 @@
+{
+  "id": "protocol/token",
+  "title": "Mantis Token",
+  "description": "The Mantis token is the native utility token for the Mantis framework, supporting various network functionalities. Mantis will be deployed as an native token on the Mantis rollup.",
+  "source": "@site/docs/protocol/token.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/token",
+  "permalink": "/mantis/docs/protocol/token",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/token.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Solvers",
+    "permalink": "/mantis/docs/protocol/solvers"
+  }
+}
