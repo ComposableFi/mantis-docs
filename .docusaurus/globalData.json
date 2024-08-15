@@ -110,8 +110,8 @@
               "sidebar": "rollup"
             },
             {
-              "id": "rollup/tx-lifestyle",
-              "path": "/mantis/docs/rollup/tx-lifestyle",
+              "id": "rollup/tx-lifecycle",
+              "path": "/mantis/docs/rollup/tx-lifecycle",
               "sidebar": "rollup"
             },
             {
@@ -133,16 +133,16 @@
                 "label": "concepts/about"
               }
             },
-            "protocol": {
-              "link": {
-                "path": "/mantis/docs/protocol/mantis",
-                "label": "Protocol"
-              }
-            },
             "rollup": {
               "link": {
                 "path": "/mantis/docs/rollup/mantis",
                 "label": "Rollup"
+              }
+            },
+            "protocol": {
+              "link": {
+                "path": "/mantis/docs/protocol/mantis",
+                "label": "Protocol"
               }
             },
             "solvers": {

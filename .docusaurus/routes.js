@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/mantis/docs',
-    component: ComponentCreator('/mantis/docs', '127'),
+    component: ComponentCreator('/mantis/docs', '6b8'),
     routes: [
       {
         path: '/mantis/docs',
-        component: ComponentCreator('/mantis/docs', '9ae'),
+        component: ComponentCreator('/mantis/docs', '1ab'),
         routes: [
           {
             path: '/mantis/docs',
-            component: ComponentCreator('/mantis/docs', '0cb'),
+            component: ComponentCreator('/mantis/docs', '610'),
             routes: [
               {
                 path: '/mantis/docs/concepts/about',
@@ -174,8 +174,8 @@ export default [
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/tx-lifestyle',
-                component: ComponentCreator('/mantis/docs/rollup/tx-lifestyle', 'de6'),
+                path: '/mantis/docs/rollup/tx-lifecycle',
+                component: ComponentCreator('/mantis/docs/rollup/tx-lifecycle', '566'),
                 exact: true,
                 sidebar: "rollup"
               },
