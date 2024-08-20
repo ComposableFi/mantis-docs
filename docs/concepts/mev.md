@@ -15,7 +15,7 @@ Some core types of MEV extraction are listed below:
 - **Arbitrage:** Here, traders leverage a price difference between two exchanges (such as two DEXes or a CEX and a DEX). They make a buy at the lower price and then sell at the higher price for a profit. This aligns the prices of the exchanges and makes the market more efficient.
 - **Liquidation:** When users do not repay their loans on a lending protocol, their collateral can often be liquidated by anyone to earn a liquidation fee.
 
-Cross-domain MEV is a specific type of MEV. This can be defined as **t**he maximum value that can be captured from arbitrage transactions executed in a specified order across multiple domains.
+Cross-domain MEV is a specific type of MEV. This can be defined as the maximum value that can be captured from arbitrage transactions executed in a specified order across multiple domains.
 
 This is a relatively novel form of MEV, and MEV in general is still a poorly studied and reported phenomenon. Thus, a number of questions remain regarding cross-domain MEV. This is an ongoing area of research and development for Mantis since our framework is cross-domain.
 

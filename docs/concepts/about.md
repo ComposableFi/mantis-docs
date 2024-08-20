@@ -2,32 +2,32 @@
 
 ## The Journey to Mantis
 
-Mantis was created by the [Composable Foundation](https://www.composablefoundation.com/) as a part of their mission to resolve frictions in the cross-chain DeFi space. These frictions are a significant factor preventing the industry from achieving user-friendliness and mainstream adoption.
+Mantis was developed by the [Composable Foundation](https://www.composablefoundation.com/) and is a part of their mission to resolve frictions in the cross-chain DeFi space. These frictions are a significant factor preventing the industry from achieving user-friendliness and mainstream adoption.
 
-Composable was first announced more than three years ago. However, its goal has always been to support DeFi users by improving the cross-chain DeFi space. Composable has evolved in lockstep with the industry in order to best deliver upon this mission. The following are key milestones in the Composable Foundation’s journey to developing Mantis:
+Composable has always been to support DeFi users by improving the cross-chain DeFi space, it has evolved in lockstep with the industry in order to best deliver upon this mission. The following are key milestones in the Composable Foundation’s journey to developing Mantis:
 
-**1\. Starting in DotSama**
+**1\. Starting in Polkadot**
 
-Composable began its journey in the DotSama ecosystem. At this time, cross-chain message passing (XCMP) had not been fully developed. This created a strong need for an interim solution for cross-chain asset movement. Composable started building the new infrastructure and developer tooling needed to bridge this technology gap in interoperability.
+Composable began its journey in the Polkadot ecosystem. At this time, cross-chain message passing (XCMP) had not been fully developed. Composable started building the new infrastructure and developer tooling to expand the interoperability reach in the ecosystem.
 
 **2\. Expanding To Cosmos IBC**
 
-Composable then expanded into the Cosmos network. This allowed Composable to leverage the Cosmos SDK and IBC (Inter-Blockchain Communication) protocol to enhance its capabilities and expand its reach across multiple blockchain ecosystems.
+Composable then expanded into the Cosmos. This allowed Composable to leverage the Cosmos SDK and IBC (Inter-Blockchain Communication) protocol to enhance its capabilities and expand its reach across multiple blockchain ecosystems.
 
 Composable then pioneered the implementation of IBC to facilitate secure, censorship-resistant, and permissionless cross-chain communication. These efforts have connected more ecosystems than ever before and broken new ground in blockchain interoperability.
 
-Building off these developments, Composable introduced the concept of “IBC Everywhere” in February of 2023 through its Centauri project. Composable has since tirelessly championed this initiative as a beacon of decentralization.
+Building off these developments, Composable introduced the concept of “IBC Everywhere” in February of 2023 through Picasso. Composable has since tirelessly championed this initiative as a beacon of decentralization.
 
 **3\. Introducing the Picasso Network**
 
 The Composable Foundation introduced the Picasso Network as part of its quest to enhance cross-chain interoperability. The Picasso L1 Protocol enables secure asset transfers and multi-asset restaking through cross-chain IBC. Picasso’s IBC connections link:
 
-- The Interchain (the Cosmos Hub and SDK chains)
+- The Interchain (IBC-enabled Cosmos SDK chains)
 - Ethereum
 - Solana
 - Polkadot and Kusama relay and parachains
 
-Plans are in place to introduce new Picasso IBC connections including one for Bitcoin.
+Plans are in place to introduce additional Picasso IBC connections including one for Bitcoin.
 
 **4\. Introducing Mantis**
 

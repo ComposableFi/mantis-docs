@@ -12,7 +12,7 @@ const config: Config = {
   url: 'https://docs.mantis.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/mantis',
+  baseUrl: '/',
 
   organizationName: 'Composable Finance', 
   projectName: 'mantis-docs', 
@@ -69,15 +69,15 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'protocol',  
-          position: 'left',
-          label: 'Protocol',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'rollup',  
           position: 'left',
           label: 'Rollup',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'protocol',  
+          position: 'left',
+          label: 'Protocol',
         },
         {
           type: 'docSidebar',

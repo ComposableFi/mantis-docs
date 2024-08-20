@@ -4,7 +4,7 @@ A core component of Mantis is the Mantis rollup. Previously, rollups have been l
 
 In this design, the bridge contract is used to move assets between Solana and Mantis. A relayer is also used to send information between these two ecosystems:
 
-(insert image)
+![nymph](../rollup/rollup.png)
 
 We are pleased to be introducing the first rollup on Solana in the form of the Mantis rollup. We hope that this can set a new standard to introduce the benefits of rollups to the Solana ecosystem. As a result, Solana-based applications and frameworks can be more performant and scalable. Moreover, the user experience can be improved through increased security and speed as well as reduced cost.
 
@@ -12,8 +12,7 @@ The Mantis rollup’s core role is to be a coordination and settlement layer for
 
 Components of the Mantis rollup are depicted in the following diagram:
 
-(insert image)
-
+![praying](../rollup/components.png)
 # Why a Rollup?
 
 Rollups are layer 2 (L2) blockchains that enable transaction processing off of the main layer 1 (L1) chain. Their name is derived from their ability to “roll up” a number of transactions into a single piece of data that is sent to the L1 chain. Benefits of rollups are as follows:

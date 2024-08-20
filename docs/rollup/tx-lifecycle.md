@@ -13,8 +13,7 @@ This is also a change in the consensus algorithm that ensures finality of the L2
 
 This transaction lifecycle is depicted in the following diagram:
 
-(insert image)
-
+![tx-cycle](../rollup/tx-lifecycle.png)
 ## Finality of the L1
 
 As mentioned, the layer 1 that a transaction is being settled to validates the L2 Mantis rollup blocks. If the L1 says the transaction is invalid (i.e. the L1 does not accept the transaction), the Mantis rollup rolls back the transaction. The rollback fork choice for the Mantis rollup is based on the L1.
