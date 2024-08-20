@@ -32,8 +32,7 @@ Mantis Accounts also facilitate native yield for other asset types. Mantis Accou
 
 Native staking and restaking in Mantis can be combined in the Mantis framework streamlining the (re)staking process for users:
 
-(insert image)
-
+![bc](../rollup/bridge-contract.png)
 #### MantisSol
 
 MantisSol is the LST generated from staking SOL on Mantis. It is the native token of the Mantis rollup and can be used to pay Mantis network fees.
