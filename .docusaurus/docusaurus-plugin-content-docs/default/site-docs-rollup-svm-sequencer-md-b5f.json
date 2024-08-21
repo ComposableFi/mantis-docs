@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/svm-sequencer.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/svm-sequencer",
-  "permalink": "/mantis/docs/rollup/svm-sequencer",
+  "permalink": "/rollup/svm-sequencer",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/svm-sequencer.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "The Mantis Rollup",
-    "permalink": "/mantis/docs/rollup/mantis"
+    "title": "Bridge Contract",
+    "permalink": "/rollup/bridge-contract"
   },
   "next": {
-    "title": "Transaction Lifecycle",
-    "permalink": "/mantis/docs/rollup/tx-lifecycle"
+    "title": "Interoperability with L1s",
+    "permalink": "/rollup/interop"
   }
 }

@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/interop.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/interop",
-  "permalink": "/mantis/docs/rollup/interop",
+  "permalink": "/rollup/interop",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/interop.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "Fee Structure",
-    "permalink": "/mantis/docs/rollup/fees"
+    "title": "SVM and Sequencer",
+    "permalink": "/rollup/svm-sequencer"
   },
   "next": {
-    "title": "The Mantis Rollup",
-    "permalink": "/mantis/docs/rollup/mantis"
+    "title": "Fee Structure",
+    "permalink": "/rollup/fees"
   }
 }

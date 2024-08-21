@@ -5,16 +5,23 @@
   "source": "@site/docs/concepts/use-cases.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/use-cases",
-  "permalink": "/mantis/docs/concepts/use-cases",
+  "permalink": "/concepts/use-cases",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/use-cases.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
   "sidebar": "concepts",
   "previous": {
     "title": "Understanding Cross-Domain MEV",
-    "permalink": "/mantis/docs/concepts/mev"
+    "permalink": "/concepts/mev"
+  },
+  "next": {
+    "title": "About Us",
+    "permalink": "/concepts/about"
   }
 }

@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/data-types.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/data-types",
-  "permalink": "/mantis/docs/rollup/data-types",
+  "permalink": "/rollup/data-types",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/data-types.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "Bridge Contract",
-    "permalink": "/mantis/docs/rollup/bridge-contract"
+    "title": "Decentralized Sequencing",
+    "permalink": "/rollup/decentralised-sequencing"
   },
   "next": {
-    "title": "Decentralized Sequencing",
-    "permalink": "/mantis/docs/rollup/decentralised-sequencing"
+    "title": "Transaction Lifecycle",
+    "permalink": "/rollup/tx-lifecycle"
   }
 }

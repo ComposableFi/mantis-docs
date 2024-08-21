@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Definitions
 
 **Block Builder:** An entity that constructs blocks from transaction order flow. On Mantis, block builders from other ecosystems can also plug in to share their mempools.

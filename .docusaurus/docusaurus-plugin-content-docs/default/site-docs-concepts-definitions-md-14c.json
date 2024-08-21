@@ -5,20 +5,23 @@
   "source": "@site/docs/concepts/definitions.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/definitions",
-  "permalink": "/mantis/docs/concepts/definitions",
+  "permalink": "/concepts/definitions",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/definitions.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
   "sidebar": "concepts",
   "previous": {
-    "title": "About Us",
-    "permalink": "/mantis/docs/concepts/about"
+    "title": "Learn",
+    "permalink": "/concepts/learn"
   },
   "next": {
-    "title": "Learn",
-    "permalink": "/mantis/docs/concepts/learn"
+    "title": "Understanding Cross-Domain MEV",
+    "permalink": "/concepts/mev"
   }
 }

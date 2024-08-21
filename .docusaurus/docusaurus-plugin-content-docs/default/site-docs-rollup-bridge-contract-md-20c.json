@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/bridge-contract.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/bridge-contract",
-  "permalink": "/mantis/docs/rollup/bridge-contract",
+  "permalink": "/rollup/bridge-contract",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/bridge-contract.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
   "sidebar": "rollup",
   "previous": {
     "title": "The Mantis Rollup",
-    "permalink": "/mantis/docs/rollup/mantis"
+    "permalink": "/rollup/mantis"
   },
   "next": {
-    "title": "Data Types",
-    "permalink": "/mantis/docs/rollup/data-types"
+    "title": "SVM and Sequencer",
+    "permalink": "/rollup/svm-sequencer"
   }
 }

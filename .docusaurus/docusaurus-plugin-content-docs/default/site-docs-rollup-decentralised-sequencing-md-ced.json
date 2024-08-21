@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/decentralised-sequencing.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/decentralised-sequencing",
-  "permalink": "/mantis/docs/rollup/decentralised-sequencing",
+  "permalink": "/rollup/decentralised-sequencing",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/decentralised-sequencing.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "Data Types",
-    "permalink": "/mantis/docs/rollup/data-types"
+    "title": "Fee Structure",
+    "permalink": "/rollup/fees"
   },
   "next": {
-    "title": "Fee Structure",
-    "permalink": "/mantis/docs/rollup/fees"
+    "title": "Data Types",
+    "permalink": "/rollup/data-types"
   }
 }

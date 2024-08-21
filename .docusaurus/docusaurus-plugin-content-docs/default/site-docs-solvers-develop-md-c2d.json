@@ -5,16 +5,15 @@
   "source": "@site/docs/solvers/develop.md",
   "sourceDirName": "solvers",
   "slug": "/solvers/develop",
-  "permalink": "/mantis/docs/solvers/develop",
+  "permalink": "/solvers/develop",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/solvers/develop.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "solvers",
-  "next": {
-    "title": "Develop - How Other Protocols Can Use Mantis",
-    "permalink": "/mantis/docs/solvers/develop"
-  }
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "solvers"
 }

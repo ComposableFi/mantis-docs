@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Mantis Virtual Machine
 
 The Mantis Virtual Machine (MantisVM) is an orchestration language and execution runtime for cross-chain program execution and intent settlement over [Picasso (IBC)](https://docs.picasso.network/). This VM enables a few key functionalities for the Mantis protocol:

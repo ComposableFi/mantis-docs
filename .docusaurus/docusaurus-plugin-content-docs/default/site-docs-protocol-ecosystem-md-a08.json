@@ -5,20 +5,23 @@
   "source": "@site/docs/protocol/ecosystem.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/ecosystem",
-  "permalink": "/mantis/docs/protocol/ecosystem",
+  "permalink": "/protocol/ecosystem",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/ecosystem.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
   "sidebar": "protocol",
   "previous": {
-    "title": "Audits",
-    "permalink": "/mantis/docs/protocol/audits"
+    "title": "Mantis Virtual Machine",
+    "permalink": "/protocol/mvm"
   },
   "next": {
-    "title": "The Mantis Protocol",
-    "permalink": "/mantis/docs/protocol/mantis"
+    "title": "Mantis Token",
+    "permalink": "/protocol/token"
   }
 }

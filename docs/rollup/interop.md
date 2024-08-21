@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Interoperability with L1s
 
 Mantis utilizes the [Inter-Blockchain Communication (IBC) Protocol](https://docs.google.com/document/d/1AD2_A95k5dji9Hq3bN1_vYKkZRArffEQgL1QVBtVo1Y/edit#heading=h.i5jdouwaxctp) for cross-chain interoperability with credible commitments. More specifically, Mantis uses the IBC connections created by the [Picasso Network](https://www.picasso.network/).

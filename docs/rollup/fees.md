@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Fee Structure
 
 Initially, we will use the [fee structure of Solana](https://solana.com/docs/core/fees) on the Mantis rollup. Later, we aim to implement a more dynamic fee model.

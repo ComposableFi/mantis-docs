@@ -5,16 +5,19 @@
   "source": "@site/docs/rollup/mantis.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/mantis",
-  "permalink": "/mantis/docs/rollup/mantis",
+  "permalink": "/rollup/mantis",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/mantis.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "rollup",
   "next": {
     "title": "Bridge Contract",
-    "permalink": "/mantis/docs/rollup/bridge-contract"
+    "permalink": "/rollup/bridge-contract"
   }
 }

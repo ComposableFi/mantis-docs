@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Mantis Use Cases
 
 ## UX: Execute Anywhere from One Location

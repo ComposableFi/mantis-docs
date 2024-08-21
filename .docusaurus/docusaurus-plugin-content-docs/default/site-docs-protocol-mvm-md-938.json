@@ -5,20 +5,23 @@
   "source": "@site/docs/protocol/mvm.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/mvm",
-  "permalink": "/mantis/docs/protocol/mvm",
+  "permalink": "/protocol/mvm",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/mvm.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "protocol",
   "previous": {
-    "title": "The Mantis Protocol",
-    "permalink": "/mantis/docs/protocol/mantis"
+    "title": "Solvers",
+    "permalink": "/protocol/solvers"
   },
   "next": {
-    "title": "Roadmap",
-    "permalink": "/mantis/docs/protocol/roadmap"
+    "title": "Ecosystem",
+    "permalink": "/protocol/ecosystem"
   }
 }

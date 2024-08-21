@@ -5,20 +5,23 @@
   "source": "@site/docs/protocol/roadmap.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/roadmap",
-  "permalink": "/mantis/docs/protocol/roadmap",
+  "permalink": "/protocol/roadmap",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/roadmap.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
   "sidebar": "protocol",
   "previous": {
-    "title": "Mantis Virtual Machine",
-    "permalink": "/mantis/docs/protocol/mvm"
+    "title": "Mantis Token",
+    "permalink": "/protocol/token"
   },
   "next": {
-    "title": "Solvers",
-    "permalink": "/mantis/docs/protocol/solvers"
+    "title": "Audits",
+    "permalink": "/protocol/audits"
   }
 }

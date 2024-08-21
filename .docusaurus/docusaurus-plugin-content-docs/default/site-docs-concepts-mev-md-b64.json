@@ -5,20 +5,23 @@
   "source": "@site/docs/concepts/mev.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/mev",
-  "permalink": "/mantis/docs/concepts/mev",
+  "permalink": "/concepts/mev",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/mev.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
   "sidebar": "concepts",
   "previous": {
-    "title": "Learn",
-    "permalink": "/mantis/docs/concepts/learn"
+    "title": "Definitions",
+    "permalink": "/concepts/definitions"
   },
   "next": {
     "title": "Mantis Use Cases",
-    "permalink": "/mantis/docs/concepts/use-cases"
+    "permalink": "/concepts/use-cases"
   }
 }

@@ -5,16 +5,19 @@
   "source": "@site/docs/concepts/about.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/about",
-  "permalink": "/mantis/docs/concepts/about",
+  "permalink": "/concepts/about",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/about.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
   "sidebar": "concepts",
-  "next": {
-    "title": "Definitions",
-    "permalink": "/mantis/docs/concepts/definitions"
+  "previous": {
+    "title": "Mantis Use Cases",
+    "permalink": "/concepts/use-cases"
   }
 }

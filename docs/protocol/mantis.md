@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # The Mantis Protocol
 
 On the Mantis rollup resides the Mantis protocol that facilitates optimal execution of cross-domain intent via a competition of solvers. In this protocol, users sign intents which are contained on a private rollup mempool. Solvers are staked agents that can a) observe the intents in the mempool and b) post solutions to intents in the auctioneer contract. The auctioneer contract scores the solutions based on how well they fit constraints the user has set. The winner of the auction is responsible for settling the intent solution they have proposed.

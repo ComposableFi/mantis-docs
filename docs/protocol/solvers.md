@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # Solvers
 
 The solver role is critical to Mantis and the chain-agnostic execution of user intents. To summarize the role, a solver:

@@ -1,3 +1,6 @@
+---
+sidebar_position: 4
+---
 # Ecosystem
 
 The components of the Mantis ecosystem synergize with the Picasso Network and the IBC Protocol. This enables Mantis’s cross-chain capability.

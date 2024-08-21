@@ -5,20 +5,23 @@
   "source": "@site/docs/rollup/fees.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/fees",
-  "permalink": "/mantis/docs/rollup/fees",
+  "permalink": "/rollup/fees",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/fees.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "Decentralized Sequencing",
-    "permalink": "/mantis/docs/rollup/decentralised-sequencing"
+    "title": "Interoperability with L1s",
+    "permalink": "/rollup/interop"
   },
   "next": {
-    "title": "Interoperability with L1s",
-    "permalink": "/mantis/docs/rollup/interop"
+    "title": "Decentralized Sequencing",
+    "permalink": "/rollup/decentralised-sequencing"
   }
 }

@@ -1,6 +1,7 @@
 ---
 title: Mantis Protocol Overview
 sidebar_position:  1
+slug: /
 ---
 [Mantis](https://www.mantis.app/) is a vertically integrated intent pipeline complete with expression, execution, and settlement. This is accomplished via the Mantis protocol and Mantis rollup. 
 

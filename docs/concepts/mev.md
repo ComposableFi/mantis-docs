@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Understanding Cross-Domain MEV
 
 A cross-domain intent settlement platform like Mantis reshapes an emerging type of maximal extractible value (MEV): cross-chain or cross-domain MEV.

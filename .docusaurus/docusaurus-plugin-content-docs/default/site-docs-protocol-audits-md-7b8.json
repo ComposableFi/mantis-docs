@@ -5,20 +5,19 @@
   "source": "@site/docs/protocol/audits.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/audits",
-  "permalink": "/mantis/docs/protocol/audits",
+  "permalink": "/protocol/audits",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/audits.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
   "sidebar": "protocol",
   "previous": {
-    "title": "The Mantis Protocol",
-    "permalink": "/mantis/docs/protocol/mantis"
-  },
-  "next": {
-    "title": "Ecosystem",
-    "permalink": "/mantis/docs/protocol/ecosystem"
+    "title": "Roadmap",
+    "permalink": "/protocol/roadmap"
   }
 }

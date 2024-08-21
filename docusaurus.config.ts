@@ -33,7 +33,10 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ComposableFi/mantis-docs',
         },
@@ -55,16 +58,16 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Mantis Documentation', 
+      title: 'Mantis Documentation',  // The title of the site goes here
       logo: {
         alt: 'My Site Logo', // The description to the logo goes here
         src: 'img/logo.svg', // The logo of the business goes here
       },
       items: [
         {
-          type: 'docSidebar', 
-          sidebarId: 'concepts',  
-          position: 'left', // 
+          type: 'docSidebar', // Signifies that the sidebar is for documentation and will come from the sidebar.ts or js
+          sidebarId: 'concepts', 
+          position: 'left', // Represents the position of the item on the top nav bar
           label: 'Concepts',
         },
         {

@@ -3,204 +3,200 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/mantis/__docusaurus/debug',
-    component: ComponentCreator('/mantis/__docusaurus/debug', 'c18'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/config',
-    component: ComponentCreator('/mantis/__docusaurus/debug/config', 'ea0'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/content',
-    component: ComponentCreator('/mantis/__docusaurus/debug/content', '6dc'),
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/globalData',
-    component: ComponentCreator('/mantis/__docusaurus/debug/globalData', 'bea'),
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/metadata',
-    component: ComponentCreator('/mantis/__docusaurus/debug/metadata', 'd9a'),
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/registry',
-    component: ComponentCreator('/mantis/__docusaurus/debug/registry', 'f73'),
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
     exact: true
   },
   {
-    path: '/mantis/__docusaurus/debug/routes',
-    component: ComponentCreator('/mantis/__docusaurus/debug/routes', '609'),
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
     exact: true
   },
   {
-    path: '/mantis/markdown-page',
-    component: ComponentCreator('/mantis/markdown-page', 'eae'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
-    path: '/mantis/docs',
-    component: ComponentCreator('/mantis/docs', '6b8'),
+    path: '/',
+    component: ComponentCreator('/', 'ec1'),
     routes: [
       {
-        path: '/mantis/docs',
-        component: ComponentCreator('/mantis/docs', '1ab'),
+        path: '/',
+        component: ComponentCreator('/', 'eb2'),
         routes: [
           {
-            path: '/mantis/docs',
-            component: ComponentCreator('/mantis/docs', '610'),
+            path: '/',
+            component: ComponentCreator('/', '969'),
             routes: [
               {
-                path: '/mantis/docs/concepts/about',
-                component: ComponentCreator('/mantis/docs/concepts/about', 'abb'),
+                path: '/concepts/about',
+                component: ComponentCreator('/concepts/about', 'b23'),
                 exact: true,
                 sidebar: "concepts"
               },
               {
-                path: '/mantis/docs/concepts/definitions',
-                component: ComponentCreator('/mantis/docs/concepts/definitions', '91f'),
+                path: '/concepts/definitions',
+                component: ComponentCreator('/concepts/definitions', 'dea'),
                 exact: true,
                 sidebar: "concepts"
               },
               {
-                path: '/mantis/docs/concepts/learn',
-                component: ComponentCreator('/mantis/docs/concepts/learn', 'f60'),
+                path: '/concepts/learn',
+                component: ComponentCreator('/concepts/learn', '835'),
                 exact: true,
                 sidebar: "concepts"
               },
               {
-                path: '/mantis/docs/concepts/mev',
-                component: ComponentCreator('/mantis/docs/concepts/mev', '9b7'),
+                path: '/concepts/mev',
+                component: ComponentCreator('/concepts/mev', '816'),
                 exact: true,
                 sidebar: "concepts"
               },
               {
-                path: '/mantis/docs/concepts/use-cases',
-                component: ComponentCreator('/mantis/docs/concepts/use-cases', 'd49'),
+                path: '/concepts/use-cases',
+                component: ComponentCreator('/concepts/use-cases', '762'),
                 exact: true,
                 sidebar: "concepts"
               },
               {
-                path: '/mantis/docs/mantis',
-                component: ComponentCreator('/mantis/docs/mantis', 'e39'),
-                exact: true
-              },
-              {
-                path: '/mantis/docs/protocol/audits',
-                component: ComponentCreator('/mantis/docs/protocol/audits', '042'),
+                path: '/protocol/audits',
+                component: ComponentCreator('/protocol/audits', 'aab'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/ecosystem',
-                component: ComponentCreator('/mantis/docs/protocol/ecosystem', '162'),
+                path: '/protocol/ecosystem',
+                component: ComponentCreator('/protocol/ecosystem', 'ff3'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/mantis',
-                component: ComponentCreator('/mantis/docs/protocol/mantis', '5e4'),
+                path: '/protocol/mantis',
+                component: ComponentCreator('/protocol/mantis', '3a2'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/mvm',
-                component: ComponentCreator('/mantis/docs/protocol/mvm', '246'),
+                path: '/protocol/mvm',
+                component: ComponentCreator('/protocol/mvm', '2f5'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/roadmap',
-                component: ComponentCreator('/mantis/docs/protocol/roadmap', '383'),
+                path: '/protocol/roadmap',
+                component: ComponentCreator('/protocol/roadmap', 'ace'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/solvers',
-                component: ComponentCreator('/mantis/docs/protocol/solvers', '4da'),
+                path: '/protocol/solvers',
+                component: ComponentCreator('/protocol/solvers', '904'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/protocol/token',
-                component: ComponentCreator('/mantis/docs/protocol/token', 'beb'),
+                path: '/protocol/token',
+                component: ComponentCreator('/protocol/token', '278'),
                 exact: true,
                 sidebar: "protocol"
               },
               {
-                path: '/mantis/docs/rollup/bridge-contract',
-                component: ComponentCreator('/mantis/docs/rollup/bridge-contract', 'ce9'),
+                path: '/rollup/bridge-contract',
+                component: ComponentCreator('/rollup/bridge-contract', '34d'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/data-types',
-                component: ComponentCreator('/mantis/docs/rollup/data-types', '015'),
+                path: '/rollup/data-types',
+                component: ComponentCreator('/rollup/data-types', 'ac7'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/decentralised-sequencing',
-                component: ComponentCreator('/mantis/docs/rollup/decentralised-sequencing', '689'),
+                path: '/rollup/decentralised-sequencing',
+                component: ComponentCreator('/rollup/decentralised-sequencing', '6c8'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/fees',
-                component: ComponentCreator('/mantis/docs/rollup/fees', 'c64'),
+                path: '/rollup/fees',
+                component: ComponentCreator('/rollup/fees', '8ee'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/interop',
-                component: ComponentCreator('/mantis/docs/rollup/interop', '901'),
+                path: '/rollup/interop',
+                component: ComponentCreator('/rollup/interop', '469'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/mantis',
-                component: ComponentCreator('/mantis/docs/rollup/mantis', '4f8'),
+                path: '/rollup/mantis',
+                component: ComponentCreator('/rollup/mantis', '605'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/svm-sequencer',
-                component: ComponentCreator('/mantis/docs/rollup/svm-sequencer', 'fbf'),
+                path: '/rollup/svm-sequencer',
+                component: ComponentCreator('/rollup/svm-sequencer', '84f'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/rollup/tx-lifecycle',
-                component: ComponentCreator('/mantis/docs/rollup/tx-lifecycle', '566'),
+                path: '/rollup/tx-lifecycle',
+                component: ComponentCreator('/rollup/tx-lifecycle', '865'),
                 exact: true,
                 sidebar: "rollup"
               },
               {
-                path: '/mantis/docs/solvers/develop',
-                component: ComponentCreator('/mantis/docs/solvers/develop', 'f1c'),
+                path: '/solvers/develop',
+                component: ComponentCreator('/solvers/develop', 'fd3'),
                 exact: true,
                 sidebar: "solvers"
               },
               {
-                path: '/mantis/docs/user_guides/waitlist',
-                component: ComponentCreator('/mantis/docs/user_guides/waitlist', 'a98'),
+                path: '/user_guides/waitlist',
+                component: ComponentCreator('/user_guides/waitlist', 'a97'),
                 exact: true,
                 sidebar: "user_guides"
+              },
+              {
+                path: '/',
+                component: ComponentCreator('/', 'bd7'),
+                exact: true,
+                sidebar: "concepts"
               }
             ]
           }
         ]
       }
     ]
-  },
-  {
-    path: '/mantis/',
-    component: ComponentCreator('/mantis/', '02d'),
-    exact: true
   },
   {
     path: '*',

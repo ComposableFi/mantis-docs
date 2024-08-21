@@ -5,16 +5,19 @@
   "source": "@site/docs/rollup/tx-lifecycle.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/tx-lifecycle",
-  "permalink": "/mantis/docs/rollup/tx-lifecycle",
+  "permalink": "/rollup/tx-lifecycle",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/tx-lifecycle.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
   "sidebar": "rollup",
   "previous": {
-    "title": "SVM and Sequencer",
-    "permalink": "/mantis/docs/rollup/svm-sequencer"
+    "title": "Data Types",
+    "permalink": "/rollup/data-types"
   }
 }

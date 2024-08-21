@@ -1,3 +1,6 @@
+---
+sidebar_position: 7
+---
 # Data Types
 
 On-chain data on the Mantis rollup comes from:

@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Develop - How Other Protocols Can Use Mantis
 
 Many projects within the DeFi space can leverage Mantis by tapping into the remote procedure call (RPC) of the Mantis Intent Software Development Kit (SDK). This is shown below:

@@ -5,20 +5,23 @@
   "source": "@site/docs/concepts/learn.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/learn",
-  "permalink": "/mantis/docs/concepts/learn",
+  "permalink": "/concepts/learn",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/learn.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
   "sidebar": "concepts",
   "previous": {
-    "title": "Definitions",
-    "permalink": "/mantis/docs/concepts/definitions"
+    "title": "Mantis",
+    "permalink": "/"
   },
   "next": {
-    "title": "Understanding Cross-Domain MEV",
-    "permalink": "/mantis/docs/concepts/mev"
+    "title": "Definitions",
+    "permalink": "/concepts/definitions"
   }
 }

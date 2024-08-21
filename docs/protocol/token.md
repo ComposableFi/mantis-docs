@@ -1,3 +1,6 @@
+---
+sidebar_position: 5
+---
 # Mantis Token
 
 The Mantis token is the native utility token for the Mantis framework, supporting various network functionalities. Mantis will be deployed as an native token on the Mantis rollup.

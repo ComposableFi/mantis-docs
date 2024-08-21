@@ -1,3 +1,6 @@
+---
+sidebar_position: 6
+---
 # Decentralized Sequencing
 
 Sequencers are network nodes that play critical roles on a rollup. These roles include:

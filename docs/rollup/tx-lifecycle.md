@@ -1,3 +1,6 @@
+---
+sidebar_position: 8
+---
 # Transaction Lifecycle
 
 Transactions settle down from layer 2 (the Mantis rollup) to layer 1 (the destination chain of the transaction):

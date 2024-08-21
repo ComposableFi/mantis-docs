@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # The Mantis Rollup
 
 A core component of Mantis is the Mantis rollup. Previously, rollups have been limited to the optimistic or ZK rollups in the Ethereum ecosystem. To meet its own unique needs, Mantis created its own rollup design on Solana.
