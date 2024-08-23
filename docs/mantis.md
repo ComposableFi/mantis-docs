@@ -34,6 +34,6 @@ The Mantis documentation contains the following categories:
 
 **[Mantis Protocol](../docs/protocol/mantis.md):** Learn about the core features of the Mantis protocol.
 
-**[Solvers](../docs/solvers/develop.md):** If you’re interested in becoming a solver on the Mantis framework, navigate here to find all of the resources you need.
+**[Develop](../docs/develop/develop.md):** There are many benefits to building on the Mantis tech stack - check out how you can leverage Mantis as a protocol or a developer.
 
 **[User Guides](../docs/user_guides/waitlist.md):** Find out how to interact with the Mantis app, including how to get involved in any current rewards opportunities and competitions.

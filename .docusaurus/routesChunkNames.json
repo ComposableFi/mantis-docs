@@ -1,137 +1,94 @@
 {
-  "/__docusaurus/debug-5ff": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/config-5ba": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/content-a2b": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
-  },
-  "/__docusaurus/debug/globalData-c3c": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/metadata-156": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/registry-88c": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
-  "/__docusaurus/debug/routes-000": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
-    }
-  },
   "/markdown-page-3d7": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---markdown-pagea-74-7b5"
+      "plugin": "a7456010"
     },
-    "content": "content---markdown-page-393-028"
+    "content": "393be207"
   },
   "/-0e6": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "aba21aa0"
     }
   },
   "/-9a7": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+    "__comp": "a7bd4aaa",
+    "__props": "22dd74f7"
   },
   "/-347": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/concepts/definitions-dea": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-definitions-14-c-852"
+    "__comp": "17896441",
+    "content": "14cf4d49"
   },
   "/concepts/learn-835": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-learn-16-e-5cd"
+    "__comp": "17896441",
+    "content": "16e0fd89"
   },
   "/concepts/use-cases-762": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---concepts-use-casesc-61-62a"
+    "__comp": "17896441",
+    "content": "c615d935"
   },
   "/develop/-0e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---develop-ef-9-a7c"
+    "__comp": "17896441",
+    "content": "ef972e60"
   },
   "/protocol/audits-aab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-audits-7-b-8-2a9"
+    "__comp": "17896441",
+    "content": "7b83bc1d"
   },
   "/protocol/ecosystem-ff3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-ecosystema-08-d44"
+    "__comp": "17896441",
+    "content": "a081b8e1"
   },
   "/protocol/mantis-3a2": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-mantis-8-a-5-890"
+    "__comp": "17896441",
+    "content": "8a5682ae"
   },
   "/protocol/roadmap-ace": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-roadmap-044-9bd"
+    "__comp": "17896441",
+    "content": "044c0be0"
   },
   "/protocol/solvers-904": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---protocol-solversaa-7-0d5"
+    "__comp": "17896441",
+    "content": "aa7215b9"
   },
   "/rollup/bridge-contract-34d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-bridge-contract-20-c-219"
+    "__comp": "17896441",
+    "content": "20cfc439"
   },
   "/rollup/data-types-ac7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-data-types-74-b-a27"
+    "__comp": "17896441",
+    "content": "74b41208"
   },
   "/rollup/decentralised-sequencing-6c8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-decentralised-sequencingced-300"
+    "__comp": "17896441",
+    "content": "cedb6303"
   },
   "/rollup/fees-8ee": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-feesc-67-5ef"
+    "__comp": "17896441",
+    "content": "c6713774"
   },
   "/rollup/mantis-605": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-mantis-772-e05"
+    "__comp": "17896441",
+    "content": "7728c4f7"
   },
   "/rollup/svm-sequencer-84f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-svm-sequencerb-5-f-c76"
+    "__comp": "17896441",
+    "content": "b5f5db3e"
   },
   "/rollup/tx-lifecycle-865": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-tx-lifecycle-95-d-f62"
+    "__comp": "17896441",
+    "content": "95d0869a"
   },
   "/user_guides/waitlist-a97": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---user-guides-waitlist-438-2ba"
+    "__comp": "17896441",
+    "content": "43824c09"
   },
   "/-bd7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---dba-9f4"
+    "__comp": "17896441",
+    "content": "dbaaa8bd"
   }
 }
