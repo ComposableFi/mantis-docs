@@ -55,7 +55,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/thumbnail.jpg',
     navbar: {
       title: 'Mantis Documentation',  // The title of the site goes here
       logo: {
