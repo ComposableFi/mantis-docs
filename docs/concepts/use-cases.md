@@ -11,7 +11,7 @@ Mantis thus introduces a platform that is natively cross-chain and simplifies th
 
 Overall, users are able to execute anywhere that is IBC-enabled directly from the Mantis app.
 
-\[insert mockup of mantis swaps feature\]
+![modal](../concepts/modal.png)
 
 Since Mantis makes DeFi more accessible and appealing, the broader industry is better positioned for mass adoption.
 
