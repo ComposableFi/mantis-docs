@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/about.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 4
   },
   "sidebar": "concepts",
   "previous": {

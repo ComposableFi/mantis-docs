@@ -11,11 +11,6 @@
           "mainDocId": "mantis",
           "docs": [
             {
-              "id": "concepts/about",
-              "path": "/concepts/about",
-              "sidebar": "concepts"
-            },
-            {
               "id": "concepts/definitions",
               "path": "/concepts/definitions",
               "sidebar": "concepts"
@@ -26,14 +21,14 @@
               "sidebar": "concepts"
             },
             {
-              "id": "concepts/mev",
-              "path": "/concepts/mev",
-              "sidebar": "concepts"
-            },
-            {
               "id": "concepts/use-cases",
               "path": "/concepts/use-cases",
               "sidebar": "concepts"
+            },
+            {
+              "id": "develop/develop",
+              "path": "/develop/",
+              "sidebar": "develop"
             },
             {
               "id": "mantis",
@@ -56,11 +51,6 @@
               "sidebar": "protocol"
             },
             {
-              "id": "protocol/mvm",
-              "path": "/protocol/mvm",
-              "sidebar": "protocol"
-            },
-            {
               "id": "protocol/roadmap",
               "path": "/protocol/roadmap",
               "sidebar": "protocol"
@@ -68,11 +58,6 @@
             {
               "id": "protocol/solvers",
               "path": "/protocol/solvers",
-              "sidebar": "protocol"
-            },
-            {
-              "id": "protocol/token",
-              "path": "/protocol/token",
               "sidebar": "protocol"
             },
             {
@@ -96,11 +81,6 @@
               "sidebar": "rollup"
             },
             {
-              "id": "rollup/interop",
-              "path": "/rollup/interop",
-              "sidebar": "rollup"
-            },
-            {
               "id": "rollup/mantis",
               "path": "/rollup/mantis",
               "sidebar": "rollup"
@@ -114,11 +94,6 @@
               "id": "rollup/tx-lifecycle",
               "path": "/rollup/tx-lifecycle",
               "sidebar": "rollup"
-            },
-            {
-              "id": "solvers/develop",
-              "path": "/solvers/develop",
-              "sidebar": "solvers"
             },
             {
               "id": "user_guides/waitlist",
@@ -146,10 +121,10 @@
                 "label": "protocol/mantis"
               }
             },
-            "solvers": {
+            "develop": {
               "link": {
-                "path": "/solvers/develop",
-                "label": "solvers/develop"
+                "path": "/develop/",
+                "label": "develop/develop"
               }
             },
             "user_guides": {

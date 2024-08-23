@@ -1,0 +1,19 @@
+{
+  "id": "develop/develop",
+  "title": "How Other Protocols Can Use Mantis",
+  "description": "Many projects within the DeFi space can leverage Mantis by tapping into the remote procedure call (RPC) of the Mantis Intent Software Development Kit (SDK). This is shown below:",
+  "source": "@site/docs/develop/develop.md",
+  "sourceDirName": "develop",
+  "slug": "/develop/",
+  "permalink": "/develop/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/develop/develop.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "develop"
+}

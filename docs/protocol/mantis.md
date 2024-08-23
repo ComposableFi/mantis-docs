@@ -35,8 +35,7 @@ The lifecycle of an intent on the Mantis protocol is as follows:
 
 This lifecycle is depicted in the diagram below:
 
-(insert image)
-
+![lifecycle](../protocol/intent-lifecycle.png)
 ## Trust Assumptions
 
 Trust assumptions of Mantis include:

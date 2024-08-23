@@ -11,17 +11,13 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/concepts/use-cases.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "concepts",
   "previous": {
-    "title": "Understanding Cross-Domain MEV",
-    "permalink": "/concepts/mev"
-  },
-  "next": {
-    "title": "About Us",
-    "permalink": "/concepts/about"
+    "title": "Definitions",
+    "permalink": "/concepts/definitions"
   }
 }

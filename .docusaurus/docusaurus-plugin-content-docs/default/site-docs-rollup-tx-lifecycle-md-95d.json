@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/tx-lifecycle.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 8,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 8
+    "sidebar_position": 7
   },
   "sidebar": "rollup",
   "previous": {

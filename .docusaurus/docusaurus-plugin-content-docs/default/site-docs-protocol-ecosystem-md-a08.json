@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/ecosystem.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "protocol",
   "previous": {
-    "title": "Mantis Virtual Machine",
-    "permalink": "/protocol/mvm"
+    "title": "Solvers",
+    "permalink": "/protocol/solvers"
   },
   "next": {
-    "title": "Mantis Token",
-    "permalink": "/protocol/token"
+    "title": "Audits",
+    "permalink": "/protocol/audits"
   }
 }

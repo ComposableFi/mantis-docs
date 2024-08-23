@@ -11,17 +11,10 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/token.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
-  "frontMatter": {
-    "sidebar_position": 5
-  },
+  "frontMatter": {},
   "sidebar": "protocol",
   "previous": {
-    "title": "Ecosystem",
-    "permalink": "/protocol/ecosystem"
-  },
-  "next": {
-    "title": "Roadmap",
-    "permalink": "/protocol/roadmap"
+    "title": "Audits",
+    "permalink": "/protocol/audits"
   }
 }

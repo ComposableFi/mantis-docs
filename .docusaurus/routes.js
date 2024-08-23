@@ -44,22 +44,16 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'ec1'),
+    component: ComponentCreator('/', '0e6'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'eb2'),
+        component: ComponentCreator('/', '9a7'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '969'),
+            component: ComponentCreator('/', '347'),
             routes: [
-              {
-                path: '/concepts/about',
-                component: ComponentCreator('/concepts/about', 'b23'),
-                exact: true,
-                sidebar: "concepts"
-              },
               {
                 path: '/concepts/definitions',
                 component: ComponentCreator('/concepts/definitions', 'dea'),
@@ -73,16 +67,16 @@ export default [
                 sidebar: "concepts"
               },
               {
-                path: '/concepts/mev',
-                component: ComponentCreator('/concepts/mev', '816'),
-                exact: true,
-                sidebar: "concepts"
-              },
-              {
                 path: '/concepts/use-cases',
                 component: ComponentCreator('/concepts/use-cases', '762'),
                 exact: true,
                 sidebar: "concepts"
+              },
+              {
+                path: '/develop/',
+                component: ComponentCreator('/develop/', '0e4'),
+                exact: true,
+                sidebar: "develop"
               },
               {
                 path: '/protocol/audits',
@@ -103,12 +97,6 @@ export default [
                 sidebar: "protocol"
               },
               {
-                path: '/protocol/mvm',
-                component: ComponentCreator('/protocol/mvm', '2f5'),
-                exact: true,
-                sidebar: "protocol"
-              },
-              {
                 path: '/protocol/roadmap',
                 component: ComponentCreator('/protocol/roadmap', 'ace'),
                 exact: true,
@@ -117,12 +105,6 @@ export default [
               {
                 path: '/protocol/solvers',
                 component: ComponentCreator('/protocol/solvers', '904'),
-                exact: true,
-                sidebar: "protocol"
-              },
-              {
-                path: '/protocol/token',
-                component: ComponentCreator('/protocol/token', '278'),
                 exact: true,
                 sidebar: "protocol"
               },
@@ -151,12 +133,6 @@ export default [
                 sidebar: "rollup"
               },
               {
-                path: '/rollup/interop',
-                component: ComponentCreator('/rollup/interop', '469'),
-                exact: true,
-                sidebar: "rollup"
-              },
-              {
                 path: '/rollup/mantis',
                 component: ComponentCreator('/rollup/mantis', '605'),
                 exact: true,
@@ -173,12 +149,6 @@ export default [
                 component: ComponentCreator('/rollup/tx-lifecycle', '865'),
                 exact: true,
                 sidebar: "rollup"
-              },
-              {
-                path: '/solvers/develop',
-                component: ComponentCreator('/solvers/develop', 'fd3'),
-                exact: true,
-                sidebar: "solvers"
               },
               {
                 path: '/user_guides/waitlist',

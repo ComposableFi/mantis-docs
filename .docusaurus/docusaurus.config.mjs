@@ -69,9 +69,9 @@ export default {
         },
         {
           "type": "docSidebar",
-          "sidebarId": "solvers",
+          "sidebarId": "develop",
           "position": "left",
-          "label": "Solvers"
+          "label": "Develop"
         },
         {
           "type": "docSidebar",

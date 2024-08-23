@@ -11,12 +11,16 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/audits.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 7
+    "sidebar_position": 4
   },
   "sidebar": "protocol",
   "previous": {
+    "title": "Ecosystem",
+    "permalink": "/protocol/ecosystem"
+  },
+  "next": {
     "title": "Roadmap",
     "permalink": "/protocol/roadmap"
   }

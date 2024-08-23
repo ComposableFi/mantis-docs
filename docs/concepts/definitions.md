@@ -5,8 +5,6 @@ sidebar_position: 2
 
 **Block Builder:** An entity that constructs blocks from transaction order flow. On Mantis, block builders from other ecosystems can also plug in to share their mempools.
 
-**Block Bundling:** A process of grouping transactions together to be proposed to blocks. On Mantis, transactions are grouped into [Picasso (IBC)](https://docs.picasso.network/) bundles for shipment based on domain.
-
 **Coincidence of Wants (CoWs):** A phenomenon where two (or more) parties coincidentally hold an item or asset that the other wants, and thus are able to exchange directly without the need for an intermediary exchange. In the case of intents, this means that one user’s intent can coincidentally be the opposite of another user’s intents. For example, one intent to swap asset A for asset B and another to swap B for A form a CoW.
 
 **Mantis Virtual Machine (MVM):** An orchestration language and execution runtime for cross-chain program execution and intents settlement. It operates on top of standards for cross-chain communication, specifically over [Picasso (IBC)](https://docs.picasso.network/).

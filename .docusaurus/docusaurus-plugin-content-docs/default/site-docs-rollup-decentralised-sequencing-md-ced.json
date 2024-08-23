@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/decentralised-sequencing.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 5
   },
   "sidebar": "rollup",
   "previous": {

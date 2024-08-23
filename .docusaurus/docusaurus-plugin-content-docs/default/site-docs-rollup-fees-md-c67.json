@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/fees.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 4
   },
   "sidebar": "rollup",
   "previous": {
-    "title": "Interoperability with L1s",
-    "permalink": "/rollup/interop"
+    "title": "SVM and Sequencer",
+    "permalink": "/rollup/svm-sequencer"
   },
   "next": {
     "title": "Decentralized Sequencing",

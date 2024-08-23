@@ -83,9 +83,9 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'solvers',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'develop',  // Id to target a soecific sidebar item in the sidebar.ts
           position: 'left',
-          label: 'Solvers',
+          label: 'Develop',
         },
         // {
         //   type: 'docSidebar',
