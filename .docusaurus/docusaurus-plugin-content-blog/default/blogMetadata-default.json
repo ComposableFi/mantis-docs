@@ -1,4 +1,5 @@
 {
-  "blogBasePath": "/mantis/blog",
-  "blogTitle": "Blog"
+  "blogBasePath": "/blog",
+  "blogTitle": "Blog",
+  "authorsListPath": "/blog/authors"
 }

@@ -8,7 +8,7 @@ export default {
   "tagline": "Native yield meets chain-abstracted orderflow.",
   "favicon": "img/favicon.ico",
   "url": "https://docs.mantis.app",
-  "baseUrl": "/mantis/",
+  "baseUrl": "/",
   "organizationName": "Composable Finance",
   "projectName": "mantis-docs",
   "onBrokenLinks": "warn",
@@ -26,12 +26,13 @@ export default {
       "classic",
       {
         "docs": {
+          "routeBasePath": "/",
           "sidebarPath": "./sidebars.ts",
           "editUrl": "https://github.com/ComposableFi/mantis-docs"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/ComposableFi/mantis-docs/tree/main/docs"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -42,10 +43,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Site Title",
+      "title": "Mantis Documentation",
       "logo": {
         "alt": "My Site Logo",
-        "src": "img/logo.svg"
+        "src": "img/mantis-logo.svg"
       },
       "items": [
         {
@@ -56,15 +57,15 @@ export default {
         },
         {
           "type": "docSidebar",
-          "sidebarId": "protocol",
-          "position": "left",
-          "label": "Protocol"
-        },
-        {
-          "type": "docSidebar",
           "sidebarId": "rollup",
           "position": "left",
           "label": "Rollup"
+        },
+        {
+          "type": "docSidebar",
+          "sidebarId": "protocol",
+          "position": "left",
+          "label": "Protocol"
         },
         {
           "type": "docSidebar",
@@ -82,6 +83,11 @@ export default {
           "href": "https://research.composable.finance/://github.com/facebook/docusaurus",
           "label": "Research",
           "position": "right"
+        },
+        {
+          "label": "Whitepaper",
+          "href": "https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -90,34 +96,20 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Community",
-          "items": [
-            {
-              "label": "X",
-              "href": "https://x.com/mantis"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discord.com/invite/N82fRBKQND"
-            }
-          ]
+          "label": "X",
+          "href": "https://x.com/mantis"
         },
         {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "href": "https://mirror.xyz/0x2e9907036C62d7dAb6775FbF49E84E4c74562526"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/composablefi"
-            },
-            {
-              "label": "Whitepaper",
-              "href": "https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf"
-            }
-          ]
+          "label": "Discord",
+          "href": "https://discord.com/invite/N82fRBKQND"
+        },
+        {
+          "label": "Blog",
+          "href": "https://mirror.xyz/0x2e9907036C62d7dAb6775FbF49E84E4c74562526"
+        },
+        {
+          "label": "GitHub",
+          "href": "https://github.com/composablefi"
         }
       ],
       "copyright": "Copyright © 2024 Composable Foundation"
@@ -336,6 +328,11 @@ export default {
       "sidebar": {
         "hideable": false,
         "autoCollapseCategories": false
+      }
+    },
+    "blog": {
+      "sidebar": {
+        "groupByYear": true
       }
     },
     "metadata": [],
