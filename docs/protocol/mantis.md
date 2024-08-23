@@ -15,7 +15,7 @@ In its first iteration, the architecture of Mantis v1 is as follows:
 4. Information on intents is sent to solvers.
 5. Solvers submit solutions (e.g. the output amount of a swap) for user intents to the rollup.
 6. Solutions are scored off-chain by the auctioneer.
-7. Once the winning solution is determined, the solver that proposed it must execute the intent. he solver makes the necesary state transitions to the respective destination chains.
+7. Once the winning solution is determined, the solver that proposed it must execute the intent. The solver makes the necesary state transitions to the respective destination chains.
 8. Once the intent solution is executed, proof of success is sent to the rollup and the source chain via IBC.
 
 This architectural flow is summarized below:
@@ -31,7 +31,7 @@ The lifecycle of an intent on the Mantis protocol is as follows:
 4. The off-chain auctioneer holds an auction to score solutions, prioritizing best execution and adherence to any constraints set by the user.
 5. Based on these scores, the auctioneer picks the winning solution.
 6. The solver who proposed the winning solution must execute this solution on the destination chain. The IBC is used to unlock user funds. In case of the solver intent is not executed, a proof is send via IBC.
-7. If the winning solver misbehaves (by not settling the transaction or by settling it in a way that does not align with their proposed solution), they will be slashed.
+7. If the winning solver misbehaves (by not settling the transaction or by settling it in a way that does not align with their proposed solution), they will be slashed. Staking and slashing will be implemented in later versions of Mantis.
 
 This lifecycle is depicted in the diagram below:
 
@@ -42,7 +42,8 @@ Trust assumptions of Mantis include:
 
 **The IBC Protocol:**
 
-IBC is used for cross-domain verification of intents. IBC was selected as Mantis’s mechanism because it is trust-minimized. An explanation of IBC’s trust minimization compared to other bridging mechanisms is available [here](https://medium.com/@Picasso_Network/ibc-as-the-end-game-of-bridging-a-comparison-analysis-on-trust-dcc01e0d9377).
+IBC is used on Mantis as a trustless cross-domain messaging protocol for proving specific occurrences happened on different domains. IBC was selected as Mantis’s mechanism for cross-chain operations because it is trust-minimized. However, Mantis still places trust in the IBC protocol itself. An explanation of IBC’s trust minimization compared to other bridging mechanisms is available [here](https://medium.com/@Picasso_Network/ibc-as-the-end-game-of-bridging-a-comparison-analysis-on-trust-dcc01e0d9377).
+
 
 **The Auctioneer:**
 

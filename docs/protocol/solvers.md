@@ -43,7 +43,6 @@ Solutions to orders can be a combination of any of the following settlement/exec
 
 - [**Coincidence of Wants (CoWs)**](https://docs.cow.fi/cow-protocol/concepts/how-it-works/coincidence-of-wants#:~:text=CoW%20%28Coincidence%20of%20Wants%29%3A,re%20trading%20the%20same%20assets.)**:** CoWs allows intents to be matched with each other. This can be done on the same chain or even cross-chain. This eliminates the need for a third party intermediary in the exchange, as user funds can be directly swapped. This further eliminates any fees or delays associated with an intermediary actor.
 - **Routes:** This solution path involves routing through constant function market makers (CFMMs), which are a subset of automated market makers (AMMs). CFMMs in DeFi have vast liquidity that solvers on Mantis can use to settle user intents.
-- **Requests for Quote (RFQ):** Solvers request quotes from sellers for settling a user intent. RFQs prioritizes the transaction initiator’s best interests via a competition of other actors trying to fulfill the other side of their trade.
 - **Market makers’ own liquidity:** Solvers can provide funds themselves to settle a transaction. It is possible that solvers also collaborate to combine their own liquidity to fulfill any given intent.
 
 ## Syntax
@@ -210,15 +209,14 @@ On Mantis, solvers need to come up with the best routes for users’ intents. Th
 
 An example Mantis solver algorithm can be viewed [here](https://github.com/ComposableFi/cvm/tree/main/mantis/node/src/solver). The mathematical process with which we generated and tested this algorithm is detailed in [this paper by Composable and Bruno Mazorra.](https://github.com/ComposableFi/composable-vm/blob/44f02baf990c16b003a51a85a50a97a1d24e7c1e/Cross-Domain-COWs-%26-Constant-Function-MM-Routing.pdf)
 
-### Fast Withdrawals
+### Fast Bridge
 
-We are implementing an architecture that allows fast withdrawals from swaps along our IBC-connected infrastructure. Users will be able to indicate they would like to participate in fast withdrawal as a part of their intent specifications. Initially, fast withdrawals will only be supported for limit orders.
+WWe are implementing an architecture that allows fast bridging of swaps along our IBC-connected infrastructure. Users will be able to indicate they would like to participate in fast bridging as a part of their intent specifications. Initially, fast bridging will only be supported for limit orders.
 
-A contract on both sides (i.e. both the source chain and the destination chain) allows the user to get their funds from the market maker quickly. A USDT pool on both sides of the transaction enables USDT to be quickly transferred in this manner. The market maker will be able to tap into an endpoint for rebalancing. The market maker can swap out of this pool.
+A contract on both sides (i.e. both the source chain and the destination chain) allows the user to get their funds from the market maker quickly. A USDT pool on both sides of the transaction enables USDT to be quickly transferred in this manner. The market maker will be able to tap into an endpoint for rebalancing. The market maker can swap out of this pool. 
 
 This works as follows:
-
-1. A user submits an intent and opts for fast withdrawal. Market makers listen to new intents being broadcast to the Mantis smart contract (which communicates with the Picasso IBC bridge).
+1. A user submits an intent and opts for fast bridging. Market makers listen to new intents being broadcast to the Mantis smart contract (which communicates with the Picasso IBC bridge).
 2. Market makers distribute USDT to the user through the Mantis smart contract.
 3. The market maker asks the smart contract to be sure these tokens were sent to the user. The smart contract on the destination chain sends a cross-chain message indicating this to a smart contract on the destination chain.
 4. A cross-chain message is sent allowing the market maker to claim the USDT from an intent.
@@ -226,12 +224,36 @@ This works as follows:
 
 This is shown below, with the numbers representing the corresponding steps above:
 
+
 ![fast](../protocol/fast-bridge.png)
 ## Scoring
+Scoring intents depends on the type of intent that a user is given. Fundamentally, an intent can be encapsulated as a utility function of the user that maps different states to real numbers that express the utility of that transition. Therefore, the scoring of such intent is the utility that the solver assigns in terms of its utility function.
+
+For example, let's assume that a user on Osmosis wants to lend at least X amount of DAI on the MakerDAO protocol by providing Y amount of USDC in the Osmosis escrow contract. The solutions are ordered by the agent that commits to lend more tokens on the MakerDAO contract via Osmosis. The solver takes the difference between Y and the amount committed. In this way, the solver is essentially pricing the cost of bridging and lending the tokens.
+
+A similar idea applies to trading. For instance, consider a user who wants to swap token A for token B on Osmosis. The user's intent might be to receive at least Z amount of token B for their token A. In this case, the scoring function would prioritize solutions that provide the most token B for the given amount of token A. The solver would calculate the effective exchange rate and compare it to the user's minimum acceptable rate.
+
+The solutions could be ranked based on:
+1. The amount of token B provided
+2. The slippage incurred
+3. The speed of execution
+4. Any additional fees or costs involved in the swap
+
+The solver would then assign a utility value to each potential solution based on these factors, with higher utility scores given to solutions that best meet or exceed the user's specified intent. This allows the system to efficiently identify and execute the most favorable trade for the user within the constraints of their intent.
 
 # Failure
 
-\[add what happens in the event of txn failure - TBD\]
+There are three types of fundamental failures in this system:
+1. No solvers have committed to provide any solution.
+2. A solver has committed to a solution but has not provided it.
+3. IBC relay stops working.
+
+In the first case, once the auctioneer records this failure in the escrow contract, the user can withdraw the tokens they originally escrowed.
+
+In the second case, where a solver has committed to a solution but has not provided it before the timeout period expires, an IBC proof is sent from the destination chain to the source chain. This proof allows the user to withdraw their funds from the escrow contract on the source chain.
+
+In the third case, either the user's or solver's funds (depending on whether the solution has been solved or not) are stuck in the escrow contract until an IBC relay functions properly and the cross-domain message is received by the escrow contract.
+These mechanisms ensure that users can recover their assets in case of system failures or non-performance by solvers, maintaining the safety and reliability of the cross-chain operations.
 
 ## Conditional Intents
 While intents in decentralized finance (DeFi) are often described as a broad concept, current intent-based applications typically focus on a limited set of intent types. These commonly take the form of limit orders or bridge transactions, such as:

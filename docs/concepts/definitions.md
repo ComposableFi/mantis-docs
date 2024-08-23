@@ -3,11 +3,9 @@ sidebar_position: 2
 ---
 # Definitions
 
-**Block Builder:** An entity that constructs blocks from transaction order flow. On Mantis, block builders from other ecosystems can also plug in to share their mempools.
+**Block Builder:** An entity that constructs blocks from transaction order flow.
 
 **Coincidence of Wants (CoWs):** A phenomenon where two (or more) parties coincidentally hold an item or asset that the other wants, and thus are able to exchange directly without the need for an intermediary exchange. In the case of intents, this means that one user’s intent can coincidentally be the opposite of another user’s intents. For example, one intent to swap asset A for asset B and another to swap B for A form a CoW.
-
-**Mantis Virtual Machine (MVM):** An orchestration language and execution runtime for cross-chain program execution and intents settlement. It operates on top of standards for cross-chain communication, specifically over [Picasso (IBC)](https://docs.picasso.network/).
 
 **Cross-Domain Maximal Extractable Value (MEV):** The maximum value that can be captured from arbitrage transactions executed in a specified order across multiple domains. See: Maximal Extractable Value.
 
@@ -18,6 +16,8 @@ sidebar_position: 2
 **Intent:** An expression of what a user wants to achieve whenever they interact with a blockchain protocol, for instance “transfer X asset from blockchain A to blockchain B” or “trade X asset for Y asset.” Practically, an intent is an off-chain signed message that encodes which state transitions a user wants to achieve. Unlike transactions, intents are partial. Thus, one can think of intents as parts of transactions that require other direct or indirect parts as complements in order to form a final balanced transaction that satisfies all of a user's constraints.
 
 **Inter-Blockchain Communication (IBC) Protocol:** A protocol for trust-minimized communication between different blockchain networks/ecosystems. IBC is leveraged on Mantis via the [Picasso Network](https://www.picasso.network/).
+
+**Mantis Virtual Machine (MVM):** An orchestration language and execution runtime for cross-chain program execution and intents settlement. 
 
 **Maximal Extractable Value (MEV):** The maximal value extractable between one or more blocks, given any arbitrary re-ordering, insertion or censorship of pending or existing transactions (as defined by [Obadia et al., 2021](https://arxiv.org/pdf/2112.01472.pdf)).
 

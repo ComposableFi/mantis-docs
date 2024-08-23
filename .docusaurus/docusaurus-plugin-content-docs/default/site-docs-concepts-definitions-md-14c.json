@@ -1,7 +1,7 @@
 {
   "id": "concepts/definitions",
   "title": "Definitions",
-  "description": "Block Builder: An entity that constructs blocks from transaction order flow. On Mantis, block builders from other ecosystems can also plug in to share their mempools.",
+  "description": "Block Builder: An entity that constructs blocks from transaction order flow.",
   "source": "@site/docs/concepts/definitions.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/definitions",

@@ -80,7 +80,7 @@ export default {
           "label": "User Guides"
         },
         {
-          "href": "https://research.composable.finance/://github.com/facebook/docusaurus",
+          "href": "https://research.composable.finance/",
           "label": "Research",
           "position": "right"
         },

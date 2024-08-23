@@ -1,6 +1,6 @@
 {
   "id": "mantis",
-  "title": "Mantis Documentation",
+  "title": "Introduction",
   "description": "Mantis is a vertically integrated intent pipeline complete with expression, execution, and settlement. This is accomplished via the Mantis protocol and Mantis rollup.",
   "source": "@site/docs/mantis.md",
   "sourceDirName": ".",
