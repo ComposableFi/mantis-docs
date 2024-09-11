@@ -36,10 +36,22 @@ Mantis Accounts also facilitate native yield for other asset types. Mantis Accou
 Native staking and restaking in Mantis can be combined in the Mantis framework streamlining the (re)staking process for users:
 
 ![bc](../rollup/bridge-contract.png)
-#### MantisSol
 
-MantisSol is the LST generated from staking SOL on Mantis. It is the native token of the Mantis rollup and can be used to pay Mantis network fees.
+:::note
+Native yield refers to the rewards users earn on their assets on the Solana L1 whilst operating on the Mantis L2. In Season 2, all assets in Round 1 are routed to MarginFi, allowing users to earn yield on their tokens by lending them out. Sources of yield:
+
+- SOL converted to jitoSOL which generates PoS yield. This jitoSOL amount is then deposited into MarginFi and thereafter the Picasso Restaking layer.
+- Stablecoins and LSTs are deposited into MarginFi and a representation of this stake is restaked in the Picasso Restaking Layer for additional yield.
+
+If you’ve deposited a stablecoin or liquid staking token eligible for native yield, your token balance will automatically rebase after the launch of the rollup. For deposits of SOL or jitoSOL, you can access and view your yield earned at any time when you choose to withdraw your tokens.
+:::
+
+#### SOL on Mantis
+
+SOL is the gas token of the Mantis rollup and can be used to pay network fees. To receive SOL on the rollup, you can bridge SOL or jitoSOL from Solana. The value of SOL on the Mantis rollup is equivalent to the value of jitoSOL, this is because the 
 
 ## Withdrawals
 
-Withdrawals of (re)staked tokens are done as IBC transfers. Funds are unlocked and sent back to the user in the form in which they were deposited. For example, if a user deposited SOL, SOL will be returned to them. The user can then bridge their tokens to other locations or perform other functionalities with them again over IBC.
+Withdrawals of (re)staked tokens are done as IBC transfers. Funds are unlocked and sent back to the user in the form in which they were deposited except for SOL where users have the option to receive jitoSOL or SOL on Solana. The user can then bridge their tokens to other locations or perform other functionalities with them again over IBC.
+
+During Mantis Season 2, after you pre-fund your account, your funds can be withdrawn at any time; however, your rewards will be slashed proportionally. For example, if you have earned 100 Credits based on your deposit and decide to withdraw 50% of your deposit, 50 Credits will be slashed from your rewards. Further, you will not be able to claim any native yield until the launch of the rollup.

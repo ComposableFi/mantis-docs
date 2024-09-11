@@ -94,12 +94,6 @@ const config: Config = {
         //   label: 'Guides',
         // },
         {
-          type: 'docSidebar',
-          sidebarId: 'user_guides',  // Id to target a soecific sidebar item in the sidebar.ts
-          position: 'left',
-          label: 'User Guides',
-        },
-        {
           href: 'https://research.composable.finance/',
           label: 'Research',
           position: 'right',

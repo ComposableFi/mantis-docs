@@ -41,7 +41,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/thumbnail.jpg",
     "navbar": {
       "title": "Mantis Documentation",
       "logo": {
@@ -72,12 +72,6 @@ export default {
           "sidebarId": "develop",
           "position": "left",
           "label": "Develop"
-        },
-        {
-          "type": "docSidebar",
-          "sidebarId": "user_guides",
-          "position": "left",
-          "label": "User Guides"
         },
         {
           "href": "https://research.composable.finance/",

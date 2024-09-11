@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '0e6'),
+    component: ComponentCreator('/', '8c4'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9a7'),
+        component: ComponentCreator('/', 'b31'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '347'),
+            component: ComponentCreator('/', 'a1e'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -149,12 +149,6 @@ export default [
                 component: ComponentCreator('/rollup/tx-lifecycle', '865'),
                 exact: true,
                 sidebar: "rollup"
-              },
-              {
-                path: '/user_guides/waitlist',
-                component: ComponentCreator('/user_guides/waitlist', 'a97'),
-                exact: true,
-                sidebar: "user_guides"
               },
               {
                 path: '/',
