@@ -6,6 +6,10 @@ slug: /
 
 [Mantis](https://www.mantis.app/) is a vertically integrated intent pipeline complete with expression, execution, and settlement. This is accomplished via the Mantis protocol and Mantis rollup. 
 
+:::tip Mantis Season 2 is live!
+Early Mantis realm explorers are given the ability to fund their Mantis Account on the rollup prior to its mainnet launch. These assets will be used to earn native yield: SOL will be staked with Solana network validators, while Solana based liquid staked tokens and native stablecoins will be lent on Marginfi and a representation of this stake restaked on Picasso's Restaking Layer.
+:::
+
 Mantis synergizes with the [Inter-Blockchain Communication (IBC) Protocol](https://www.ibcprotocol.dev/) via the [Picasso Network](https://www.picasso.network/) to deliver secure interoperability. Ultimately, Mantis strives to establish a decentralized market for cross-domain intent expression.
 
 At its core, Mantis operates with a solver network that powers chain abstraction. But what does this actually mean?
@@ -37,5 +41,3 @@ The Mantis documentation contains the following categories:
 **[Mantis Protocol](../docs/protocol/mantis.md):** Learn about the core features of the Mantis protocol.
 
 **[Develop](../docs/develop/develop.md):** There are many benefits to building on the Mantis tech stack - check out how you can leverage Mantis as a protocol or a developer.
-
-**[User Guides](../docs/user_guides/waitlist.md):** Find out how to interact with the Mantis app, including how to get involved in any current rewards opportunities and competitions.

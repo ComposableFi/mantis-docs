@@ -94,11 +94,6 @@
               "id": "rollup/tx-lifecycle",
               "path": "/rollup/tx-lifecycle",
               "sidebar": "rollup"
-            },
-            {
-              "id": "user_guides/waitlist",
-              "path": "/user_guides/waitlist",
-              "sidebar": "user_guides"
             }
           ],
           "draftIds": [],
@@ -125,12 +120,6 @@
               "link": {
                 "path": "/develop/",
                 "label": "develop/develop"
-              }
-            },
-            "user_guides": {
-              "link": {
-                "path": "/user_guides/waitlist",
-                "label": "user_guides/waitlist"
               }
             }
           }

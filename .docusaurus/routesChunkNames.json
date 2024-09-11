@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-0e6": {
+  "/-8c4": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-9a7": {
+  "/-b31": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-347": {
+  "/-a1e": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/concepts/definitions-dea": {
@@ -125,10 +125,6 @@
   "/rollup/tx-lifecycle-865": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---rollup-tx-lifecycle-95-d-f62"
-  },
-  "/user_guides/waitlist-a97": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---user-guides-waitlist-438-2ba"
   },
   "/-bd7": {
     "__comp": "__comp---theme-doc-item-178-a40",
