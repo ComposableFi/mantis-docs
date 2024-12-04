@@ -1,7 +1,7 @@
 {
   "id": "develop/develop",
-  "title": "How Other Protocols Can Use Mantis",
-  "description": "Many projects within the DeFi space can leverage Mantis by tapping into the remote procedure call (RPC) of the Mantis Intent Software Development Kit (SDK). This is shown below:",
+  "title": "Develop",
+  "description": "Requesting API Keys",
   "source": "@site/docs/develop/develop.md",
   "sourceDirName": "develop",
   "slug": "/develop/",

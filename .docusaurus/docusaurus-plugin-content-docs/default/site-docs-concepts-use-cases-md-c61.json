@@ -1,7 +1,7 @@
 {
   "id": "concepts/use-cases",
   "title": "Mantis Use Cases",
-  "description": "UX: Execute Anywhere from One Location",
+  "description": "Mantis can be leveraged by any sort of application or framework that wants to derive benefits from chain-agnostic, optimized intent settlement. These platforms will be able to send intents on behalf of their users to Mantis, where these intents will be settled.",
   "source": "@site/docs/concepts/use-cases.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/use-cases",

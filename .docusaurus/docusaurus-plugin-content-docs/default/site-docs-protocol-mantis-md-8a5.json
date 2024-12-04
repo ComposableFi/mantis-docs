@@ -17,7 +17,7 @@
   },
   "sidebar": "protocol",
   "next": {
-    "title": "Solvers",
-    "permalink": "/protocol/solvers"
+    "title": "Intent Lifecycle",
+    "permalink": "/protocol/intent-lifecycle"
   }
 }

@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/data-types.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 5
   },
   "sidebar": "rollup",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/rollup/decentralised-sequencing"
   },
   "next": {
-    "title": "Transaction Lifecycle",
+    "title": "Transaction Lifecycle on the Rollup",
     "permalink": "/rollup/tx-lifecycle"
   }
 }

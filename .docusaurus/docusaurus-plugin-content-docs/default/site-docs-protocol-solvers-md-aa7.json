@@ -11,17 +11,17 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/solvers.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "protocol",
   "previous": {
-    "title": "The Mantis Protocol",
-    "permalink": "/protocol/mantis"
+    "title": "Intent Lifecycle",
+    "permalink": "/protocol/intent-lifecycle"
   },
   "next": {
-    "title": "Ecosystem",
-    "permalink": "/protocol/ecosystem"
+    "title": "solver-rules",
+    "permalink": "/protocol/solver-rules"
   }
 }

@@ -5,9 +5,40 @@ sidebar_position: 1
 
 On the Mantis rollup resides the Mantis protocol that facilitates optimal execution of cross-domain intent via a competition of solvers. In this protocol, users sign intents which are contained on a private rollup mempool. Solvers are staked agents that can a) observe the intents in the mempool and b) post solutions to intents in the auctioneer contract. The auctioneer contract scores the solutions based on how well they fit constraints the user has set. The winner of the auction is responsible for settling the intent solution they have proposed.
 
+## Smart Contracts on Each Chain
+
+Each blockchain supported by Mantis hosts an escrow contract that facilitates the intent system. It is possible to interact with the Mantis protocol directly through these contracts.
+
+These contracts provide the following interfaces:
+
+1. escrowFundsAndSubmitIntent(IntentData) -> UInt: Allows users to submit a new intent by locking their funds in the contract. It generates a unique ID for the intent, stores the associated data, and emits an event containing the intent ID for off-chain entities to detect. The IntentData includes fields such as token, amount, user, outputToken, and receiverAddress.
+2. updateIntent(IntentId: UInt, amountOut: UInt, winnerSolver: Address): Callable only by the Auctioneer, this function updates the intent with the winning Solver's address and the finalized output amount.
+3. releaseFunds(SolverTransfer): Callable only by the winning Solver, this function releases the locked funds to the recipient account. The SolverTransfer contains details necessary to execute the fund transfer.
+4. onReceiveTransfer(TransferData, PacketData) -> bool: A callback function for handling cross-chain intents received via Inter-Blockchain Communication (IBC). It processes incoming ICS20-transfer packets, updating the contract state accordingly, and returns a boolean indicating the success of the operation.
+
+Each contract has 3 main functions:
+
+1. \`escrowFundsAndSubmitIntent(IntentData) -> UInt\`. Through this function a user can submit a new intent (e.g. a swap request). It will generate a new ID for the intent and store the data inside the contract, emitting an event with the ID.
+2. \`updateIntent(IntentId, amountOut: UInt, winnerSolver: Address)\`. This funciton is only callable by auctioneers and is used to refine information about the intent.
+3. \`releaseFunds(SolverTransfer)\`. This function is called by a solver that decided to process the intent, in particular, this will release the funds to the recipient account.
+
+More details about the code can be found along the links:
+
+| **Chain** | **Sources** |
+| --- | --- |
+| Ethereum | 0x64E78873057769a5fd9A2278E6820666ec7e87f9 |
+| --- | --- |
+| Mantis/Solana | [AhfoGVmS19tvkEG2hBuZJ1D6qYEjyFmXZ1qPoFD6H4Mj](https://github.com/ComposableFi/emulated-light-client/blob/upgrade/solana/bridge-escrow/programs/bridge-escrow/src/lib.rs) |
+| --- | --- |
+
 ## Mantis V1
 
-In its first iteration, the architecture of Mantis v1 is as follows:
+In its first iteration, Mantis will accept intents for swaps between Ethereum and Solana (cross-chain intents) as well as swaps just on Ethereum or just on Solana (single-domain intents):
+
+- **Single-Domain Intents:** These are transactions executed entirely within a single blockchain network. The user submits an intent on Ethereum or Solana. Then, the solver provides a solution to the user on the network of choice via the Mantis contractand funds are released to the recipient. Use cases currently include asset swaps within the same blockchain.
+- **Cross-Chain Intents**: These involve transactions that transfer assets between different blockchain networks. The user submits an intent on the source chain. Then, the Solver provides a solution to the user on the destination chain and the Mantis contract coordinates cross-chain communication via IBC to release funds to the Solver on the source chain. Use cases include swapping assets from one chain to another.
+
+The architecture of Mantis v1 is as follows:
 
 1. Intents (preferences for a cross-chain transaction) are submitted to the Mantis interface via the Mantis rollup directly or via another IBC-connected chain like Solana or Ethereum.
 2. User funds are escrowed on the source chain or the rollup (where the intent is submitted).
@@ -15,27 +46,12 @@ In its first iteration, the architecture of Mantis v1 is as follows:
 4. Information on intents is sent to solvers.
 5. Solvers submit solutions (e.g. the output amount of a swap) for user intents to the rollup.
 6. Solutions are scored off-chain by the auctioneer.
-7. Once the winning solution is determined, the solver that proposed it must execute the intent. The solver makes the necesary state transitions to the respective destination chains.
+7. Once the winning solution is determined, the solver that proposed it must execute the intent. The solver makes the necessary state transitions to the respective destination chains.
 8. Once the intent solution is executed, proof of success is sent to the rollup and the source chain via IBC.
 
 This architectural flow is summarized below:
 
 ![mantis](../protocol/protocol.png)
-## Intent Lifecycle
-
-The lifecycle of an intent on the Mantis protocol is as follows:
-
-1. The user expresses and signs an intent.
-2. The intent is sent to the intent database/mempool of the Mantis rollup.
-3. For a period of time, solvers propose different solutions to the intent. They submit these solutions to auction smart contracts on the Mantis rollup.
-4. The off-chain auctioneer holds an auction to score solutions, prioritizing best execution and adherence to any constraints set by the user.
-5. Based on these scores, the auctioneer picks the winning solution.
-6. The solver who proposed the winning solution must execute this solution on the destination chain. The IBC is used to unlock user funds. In case of the solver intent is not executed, a proof is send via IBC.
-7. If the winning solver misbehaves (by not settling the transaction or by settling it in a way that does not align with their proposed solution), they will be slashed. Staking and slashing will be implemented in later versions of Mantis.
-
-This lifecycle is depicted in the diagram below:
-
-![lifecycle](../protocol/intent-lifecycle.png)
 ## Trust Assumptions
 
 Trust assumptions of Mantis include:

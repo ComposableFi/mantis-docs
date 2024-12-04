@@ -51,6 +51,40 @@ The cross-chain transaction user experience further improved because of the foll
 
 **To summarize, Mantis is an ecosystem-agnostic intent settlement framework. This framework is powered by the Mantis rollup. The Mantis protocol facilitates a network of competing solvers that devise solutions aimed at optimizing user results.**
 
+## Architecture
+
+### 1\. Mantis Rollup
+
+The Mantis framework is housed on the Mantis network extension, which is a rollup created on Solana using the Solana Virtual Machine (SVM). This rollup provides private blockspace for Mantis operations. It reduces the on-chain data footprint by batching multiple transactions, contributes to the system's decentralization, and ensures all actions are transparent and can be independently verified by network participants.
+
+Moreover, the Mantis rollup maintains the logic governing the Auctioneer, a critical on-chain entity responsible for orchestrating the intent lifecycle. Roles of the auctioneer include:
+
+- Monitoring intent events emitted by the escrow contracts on supported blockchains,
+- Distributing detected intents to registered solvers for analysis and bidding
+- Evaluating bids based on criteria such as cost, execution speed, and reliability
+- Updating intents on-chain by calling the updateIntent function on the source chain's escrow contract to record the winning solver and finalize transaction details
+
+In-depth details about the Mantis rollup are available [here](../rollup/mantis.md).
+
+### 2\. Mantis Protocol
+
+The Mantis Protocol is a framework 1) for users to submit intents for cryptocurrency transactions, and 2) for a network of solvers to compete to create and execute upon the best solution route for each intent.
+
+On the Mantis Protocol, solvers receive intents broadcasted by the Auctioneer. Subsequently, solvers assess the feasibility and profitability of executing the intent, submitting competitive bids specifying proposed execution details. Upon winning an auction, solvers provide a solution through the appropriate escrow contract.
+
+This protocol is supported by smart contracts on each chain. Specifically, each supported blockchain hosts an escrow contract that facilitates the intent system. These contracts enable users to submit new intents by locking funds in a contract, generating a unique ID for the intent and storing intent-related information. These contracts also allow the auctioneer and solvers to play their roles in the Mantis Protocol. Furthermore, these contracts handle intents on the same domain as well as cross-chain via the Inter-Blockchain Communication (IBC) Protocol.
+
+In-depth details about the Mantis Protocol are available [here](https://docs.mantis.app/protocol/mantis).
+
+### 3\. Mantis App
+
+The Mantis application makes it possible for users to interact with the Mantis protocol and make swaps on:
+
+- Ethereum
+- Solana
+- Cross-chain: Ethereum - Solana
+
+Check out the Mantis app for yourself [here](https://about.mantis.app/).
 # Whitepaper
 
 The Mantis whitepaper is available [here](https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf).

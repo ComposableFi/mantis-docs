@@ -1,0 +1,23 @@
+{
+  "id": "operate/solvers",
+  "title": "Operate as a Solver",
+  "description": "Solvers interested in joining the Mantis network should fill out this form. Although operating as a solver is a permissionless process, this form serves as a means to establish contact with solvers to ensure their setup and operations are functioning smoothly and without any issues.",
+  "source": "@site/docs/operate/solvers.md",
+  "sourceDirName": "operate",
+  "slug": "/operate/solvers",
+  "permalink": "/operate/solvers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/operate/solvers.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "operate",
+  "next": {
+    "title": "API Documentation",
+    "permalink": "/operate/api"
+  }
+}
