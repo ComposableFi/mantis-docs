@@ -4,7 +4,7 @@ slug: /
 ---
 # Introduction
 
-[Mantis](https://www.mantis.app/) is a vertically integrated intent pipeline complete with expression, execution, and settlement. This is accomplished via the Mantis protocol and Mantis rollup. 
+[Mantis](https://www.mantis.app/) is the unified trading app on Solana and Ethereum. The vision is to become a vertically integrated intent pipeline complete with expression, execution, and settlement. This will be accomplished via the Mantis protocol and Mantis rollup. 
 
 
 Mantis synergizes with the [Inter-Blockchain Communication (IBC) Protocol](https://www.ibcprotocol.dev/) via the [Picasso Network](https://www.picasso.network/) to deliver secure interoperability. Ultimately, Mantis strives to establish a decentralized market for cross-domain intent expression.
