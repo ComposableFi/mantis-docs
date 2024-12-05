@@ -74,6 +74,12 @@ export default {
           "label": "Develop"
         },
         {
+          "type": "docSidebar",
+          "sidebarId": "operate",
+          "position": "left",
+          "label": "Operate"
+        },
+        {
           "href": "https://research.composable.finance/",
           "label": "Research",
           "position": "right"

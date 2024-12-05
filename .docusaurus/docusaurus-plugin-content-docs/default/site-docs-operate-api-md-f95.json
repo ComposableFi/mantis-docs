@@ -1,0 +1,23 @@
+{
+  "id": "operate/api",
+  "title": "API Documentation",
+  "description": "WebSocket API",
+  "source": "@site/docs/operate/api.md",
+  "sourceDirName": "operate",
+  "slug": "/operate/api",
+  "permalink": "/operate/api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/operate/api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "operate",
+  "previous": {
+    "title": "Operate as a Solver",
+    "permalink": "/operate/solvers"
+  }
+}

@@ -87,6 +87,12 @@ const config: Config = {
           position: 'left',
           label: 'Develop',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'operate',  // Id to target a soecific sidebar item in the sidebar.ts
+          position: 'left',
+          label: 'Operate',
+        },
         // {
         //   type: 'docSidebar',
         //   sidebarId: 'user_guides',  // Id to target a soecific sidebar item in the sidebar.ts

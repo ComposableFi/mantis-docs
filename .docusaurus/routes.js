@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '8c4'),
+    component: ComponentCreator('/', '2a7'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'b31'),
+        component: ComponentCreator('/', 'be1'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'a1e'),
+            component: ComponentCreator('/', 'b8d'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -79,6 +79,18 @@ export default [
                 sidebar: "develop"
               },
               {
+                path: '/operate/api',
+                component: ComponentCreator('/operate/api', 'fb2'),
+                exact: true,
+                sidebar: "operate"
+              },
+              {
+                path: '/operate/solvers',
+                component: ComponentCreator('/operate/solvers', '631'),
+                exact: true,
+                sidebar: "operate"
+              },
+              {
                 path: '/protocol/audits',
                 component: ComponentCreator('/protocol/audits', 'aab'),
                 exact: true,
@@ -91,6 +103,12 @@ export default [
                 sidebar: "protocol"
               },
               {
+                path: '/protocol/intent-lifecycle',
+                component: ComponentCreator('/protocol/intent-lifecycle', 'b0a'),
+                exact: true,
+                sidebar: "protocol"
+              },
+              {
                 path: '/protocol/mantis',
                 component: ComponentCreator('/protocol/mantis', '3a2'),
                 exact: true,
@@ -99,6 +117,12 @@ export default [
               {
                 path: '/protocol/roadmap',
                 component: ComponentCreator('/protocol/roadmap', 'ace'),
+                exact: true,
+                sidebar: "protocol"
+              },
+              {
+                path: '/protocol/solver-rules',
+                component: ComponentCreator('/protocol/solver-rules', '76e'),
                 exact: true,
                 sidebar: "protocol"
               },
@@ -135,12 +159,6 @@ export default [
               {
                 path: '/rollup/mantis',
                 component: ComponentCreator('/rollup/mantis', '605'),
-                exact: true,
-                sidebar: "rollup"
-              },
-              {
-                path: '/rollup/svm-sequencer',
-                component: ComponentCreator('/rollup/svm-sequencer', '84f'),
                 exact: true,
                 sidebar: "rollup"
               },

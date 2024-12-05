@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 # Ecosystem
 
@@ -20,3 +20,14 @@ The Picasso Network and its IBC connections enable the Mantis framework to be cr
 Moreover, the Restaking Layer on Picasso coordinates the agents that have a combination of stake in different chains. Commitments formed between these actors draw upon this Restaking Layer.
 
 Because all cross-chain activities on Mantis leverage Picasso and IBC, there will be cross-pollination of revenue which will accrue to Picasso’s native PICA token.
+
+# Partnerships & Integrations
+
+## How to Become a Partner
+
+If you’re interested in partnering with Mantis to integrate our technology, please reach out to us via email at [info@composable.finance](mailto:info@composable.finance).
+
+# Existing Integrations
+
+The Mantis ecosystem:
+![eco](../protocol/ecosystem.png)

@@ -3,6 +3,8 @@ sidebar_position: 2
 ---
 # Bridge Contract
 
+The bridge contract interacts with the rollup to facilitate bridging between Mantis (the L2) and its L1, Solana. This occurs over the Inter-Blockchain Communication (IBC) Protocol. The bridge contract connects to an IBC contract to facilitate this connection. A relayer is also used to send information between the Mantis rollup and Solana.
+
 ## Deposits
 
 A bridge contract interacts with the Mantis rollup to facilitate the movement of assets. Any asset can be deposited into the bridge contract to be staked in proof-of-stake validation and provide staking rewards. Deposits of SOL or any of a number of liquid staked tokens (LSTs) from SOL earn additional yield in the form of restaking, DeFi integrations, and native yield:
@@ -55,3 +57,11 @@ SOL is the gas token of the Mantis rollup and can be used to pay network fees. T
 Withdrawals of (re)staked tokens are done as IBC transfers. Funds are unlocked and sent back to the user in the form in which they were deposited except for SOL where users have the option to receive jitoSOL or SOL on Solana. The user can then bridge their tokens to other locations or perform other functionalities with them again over IBC.
 
 During Mantis Season 2, after you pre-fund your account, your funds can be withdrawn at any time; however, your rewards will be slashed proportionally. For example, if you have earned 100 Credits based on your deposit and decide to withdraw 50% of your deposit, 50 Credits will be slashed from your rewards. Further, you will not be able to claim any native yield until the launch of the rollup.
+
+# Escrow Contract
+
+The Rollup has an escrow contract similar to those on Ethereum and Solana. Users can escrow their funds directly on the Rollup. Solvers will also have funds on the Rollup, enabling cross-chain intents to happen directly on the Rollup, within a single chain (like Ethereum), or across chains (e.g., Ethereum to Solana).
+
+# SVM and Sequencer
+
+The Mantis rollup’s execution engine is a lightweight [Solana Virtual Machine (SVM)](https://squads.so/blog/solana-svm-sealevel-virtual-machine) with a sequencer similar to the [Jito validator client](https://www.jito.wtf/validators/). The sequencer interacts directly with the bridge contract on Solana mainnet for unlocking and routing funds to other chains. The role of the sequencer on Mantis is to produce blocks for the Mantis rollup. It does not post data to the L1, as traditional sequencers do. Instead, this task is performed by an IBC relay.

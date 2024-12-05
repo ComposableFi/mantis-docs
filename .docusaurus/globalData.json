@@ -36,6 +36,16 @@
               "sidebar": "concepts"
             },
             {
+              "id": "operate/api",
+              "path": "/operate/api",
+              "sidebar": "operate"
+            },
+            {
+              "id": "operate/solvers",
+              "path": "/operate/solvers",
+              "sidebar": "operate"
+            },
+            {
               "id": "protocol/audits",
               "path": "/protocol/audits",
               "sidebar": "protocol"
@@ -46,6 +56,11 @@
               "sidebar": "protocol"
             },
             {
+              "id": "protocol/intent-lifecycle",
+              "path": "/protocol/intent-lifecycle",
+              "sidebar": "protocol"
+            },
+            {
               "id": "protocol/mantis",
               "path": "/protocol/mantis",
               "sidebar": "protocol"
@@ -53,6 +68,11 @@
             {
               "id": "protocol/roadmap",
               "path": "/protocol/roadmap",
+              "sidebar": "protocol"
+            },
+            {
+              "id": "protocol/solver-rules",
+              "path": "/protocol/solver-rules",
               "sidebar": "protocol"
             },
             {
@@ -86,11 +106,6 @@
               "sidebar": "rollup"
             },
             {
-              "id": "rollup/svm-sequencer",
-              "path": "/rollup/svm-sequencer",
-              "sidebar": "rollup"
-            },
-            {
               "id": "rollup/tx-lifecycle",
               "path": "/rollup/tx-lifecycle",
               "sidebar": "rollup"
@@ -120,6 +135,12 @@
               "link": {
                 "path": "/develop/",
                 "label": "develop/develop"
+              }
+            },
+            "operate": {
+              "link": {
+                "path": "/operate/solvers",
+                "label": "operate/solvers"
               }
             }
           }

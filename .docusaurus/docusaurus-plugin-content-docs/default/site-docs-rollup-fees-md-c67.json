@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/fees.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "rollup",
   "previous": {
-    "title": "SVM and Sequencer",
-    "permalink": "/rollup/svm-sequencer"
+    "title": "Bridge Contract",
+    "permalink": "/rollup/bridge-contract"
   },
   "next": {
     "title": "Decentralized Sequencing",

@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-8c4": {
+  "/-2a7": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-b31": {
+  "/-be1": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-a1e": {
+  "/-b8d": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/concepts/definitions-dea": {
@@ -78,6 +78,14 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---develop-ef-9-a7c"
   },
+  "/operate/api-fb2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---operate-apif-95-bf5"
+  },
+  "/operate/solvers-631": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---operate-solvers-086-f98"
+  },
   "/protocol/audits-aab": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---protocol-audits-7-b-8-2a9"
@@ -86,6 +94,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---protocol-ecosystema-08-d44"
   },
+  "/protocol/intent-lifecycle-b0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-intent-lifecycleb-7-a-7d2"
+  },
   "/protocol/mantis-3a2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---protocol-mantis-8-a-5-890"
@@ -93,6 +105,10 @@
   "/protocol/roadmap-ace": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---protocol-roadmap-044-9bd"
+  },
+  "/protocol/solver-rules-76e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---protocol-solver-rulesc-36-2cd"
   },
   "/protocol/solvers-904": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -117,10 +133,6 @@
   "/rollup/mantis-605": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---rollup-mantis-772-e05"
-  },
-  "/rollup/svm-sequencer-84f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-svm-sequencerb-5-f-c76"
   },
   "/rollup/tx-lifecycle-865": {
     "__comp": "__comp---theme-doc-item-178-a40",

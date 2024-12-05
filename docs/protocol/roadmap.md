@@ -1,39 +1,63 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 # Roadmap
 
-## Immediate Roadmap
+Additional features that we plan to add to Mantis include the following:
 
-The immediate roadmap for Mantis-related developments and deployments is as follows:
+### Conditional Intents
 
-- Mantis V1 launch with MVP features
-- Intents user interface (UI) launch
+While intents in decentralized finance (DeFi) are often described as a broad concept, current intent-based applications typically focus on a limited set of intent types. These commonly take the form of limit orders or bridge transactions, such as:
 
-Mantis V2 will launch with additional features.
+1. "Trade asset A for asset B with a minimum price p"
+2. "Transfer asset A to domain Z"
 
-## The Path to Decentralization
+However, the theoretical potential of intents extends far beyond these basic use cases. Ideally, intents should serve as a tool allowing agents to express "arbitrary" preferences over state transitions within a single domain or across multiple domains.
 
-It is important for Mantis to become as decentralized as possible; decentralized structures are more secure, transparent, and resilient to attacks or failures compared to centralized structures. However, a completely decentralized ecosystem is incredibly developmentally intensive. In the interest of being able to provide users with the Mantis solution in an expedient manner, we are rolling out some features that are more centralized at first. Over time, we will continue to make these components more decentralized according to the outline below:
+In economic literature, limit price-type intents can be conceptualized as expressions of an agent's private valuations over assets. Private valuations refer to the subjective worth an individual assigns to an asset, independent of others' opinions or market conditions. For instance, an individual might value a rare coin based on personal interest or sentimental attachment, regardless of its market price (also known as Walrasian demands).
 
-**Solvers**
+However, it's crucial to recognize that users and agents often do not operate solely on private valuations. In reality, economic actors are interdependent, and their valuations of certain objects can depend significantly on the valuations of others. A prime example of this phenomenon is the valuation of digital art.
 
-- Implement slashing parameters
+In such cases, if no one expresses any valuation for an item, people generally wouldn't value it. Conversely, when an item experiences high demand, agents often interpret this demand as a positive signal, indicating that the item possesses some intrinsic value. This concept aligns with the greater fool theory and speculative bubbles in financial markets.
 
-**Relayer/Sequencer**
+Given this reality, intents should be capable of capturing these interdependent valuations. Many items are not valued in isolation from the world (unlike, for example, consuming an apple, which is generally independent of others' consumption). Instead, their value is deeply intertwined with other agents' valuations.
 
-- Implement slashing parameters
+Natural examples of interdependent valuations that could be expressed through more sophisticated intents include:
 
-**Auctioneer**
+1. Stop-losses: An order to sell an asset when it reaches a certain price, reflecting a valuation dependent on market movements.
+2. Bidding in NFT auctions: Where the perceived value of an NFT can be influenced by the bids of other participants.
+3. Copy-trading strategies: Where an agent's trading decisions are based on the actions of another trader (use other traders actions as positive or negative signals).
+4. Dynamic liquidity provision: Adjusting liquidity based on market volatility or trading volume.
+5. Trading conditional to prediction market quotes on real events.
 
-- Initially, off-chain actors
-- Implement slashing parameters
+By expanding the concept of intents to encompass these interdependent valuations, DeFi protocols and users can more accurately reflect the complex decision-making processes of market participants. This evolution could lead to more efficient markets, improved price discovery mechanisms, and a closer alignment between DeFi systems and real-world economic behaviors. We call this subset of intents **conditional intents**, emphasizing that the execution of such is conditioned to external signals or events.
 
-**Block Producers**
+Because intents on Mantis are generalized, artificial intelligence (AI) agents will be capable of submitting time-based conditional intents through the protocol. For example, a user may want to make a particular swap at the best price within the next 48 hours. They provide this information to the AI agent, which makes a prediction about when the best price will be within this time constraint. Then, at this time, the AI agent submits an intent to carry out the swap to Mantis. This abstracts conditionality away from solvers and puts it in the hands of AI agents who likely have more powerful algorithms to determine the best timing of swaps. Then, solvers are left to handle identification and execution of the best transaction route at that time. In this manner, the strengths and optimizations of the Mantis protocol and of AI agents are able to synergize, providing the best execution.
 
-- Implement slashing parameters
+### The Path to Decentralization
 
-## Security from the L1
+It is important for Mantis to become as decentralized as possible; decentralized structures are more secure, transparent, and resilient to attacks or failures compared to centralized structures. However, a completely decentralized ecosystem is incredibly developmentally intensive. In the interest of being able to provide users with the Mantis solution in an expedient manner, we are rolling out some features that are more centralized at first.
+
+The Rollup is the cornerstone for making this architecture truly decentralized. Currently, the Auctioneer holds some central power, which could lead to potential misbehavior. The goal is to migrate the off-chain Auctioneer to the Rollup, ensuring a fairer system for both Users and Solvers. Over time, we will continue to make these components more decentralized according to the outline below:
+
+**On-Chain Auctioneer Functionality:**
+
+- The Escrow contract on the Rollup will incorporate the Auctioneer's role, bringing the auction process on-chain. Users will send their intents directly to the Rollup.
+- Solvers will monitor these intents and decide if they want to participate in the auction. The auction itself will occur on-chain within the Escrow contract.
+
+**Transparency and Monitoring:**
+
+- The future vision includes a Front-End blockchain explorer that pulls data from the Escrow Contract on the Rollup. This explorer will display critical information, such as:
+  - **Pending Intents:** Whether they are private or public for discussion.
+  - **On-Execution Intents:** Intents currently being processed.
+  - **Executed Intents:** Intents that have been fully executed.
+- Essentially, the Escrow contract on the Rollup will act as a mempool for intents, providing transparency and allowing all participants to monitor the process.
+
+**Slashing Parameters:**
+
+- We will implement slashing parameters for solvers, relayers/sequencers, and block producers to disincentivize misbehavior.
+
+### Security from the L1
 
 In the Ethereum context, there are two requirements for being a rollup:
 
@@ -61,27 +85,3 @@ The initial design is just-in-time auctions to allow builders to express atomica
 This approach poses two main challenges: the risk of double-signing and the high level of trust placed in the relay. Thus, in the future, Mantis aims to introduce a future blockspace market, where the rights to future blockspace on multiple domains can be bought and sold. This aims to decrease the monopolistic power of sellers selling combinations of blocks while increasing market efficiency.
 
 Both the initial just-in-time auctions and the more advanced combinatorial blockspace future markets are described in detail in the [Mantis Whitepaper](https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf).
-
-### Other Searcher Roles
-
-On Mantis, searchers will eventually additionally be able to play a role in the following processes:
-
-#### Mempool Matching
-
-All blockchain nodes have memory pools (mempools) or similar components: a backlog of pending and unconfirmed transactions stored prior to their approval. Yet, mempools have a lot of inefficiency, as they are all closed, separate systems.
-
-Mempool matching addresses these inefficiencies. In this process, pending transactions in different mempools can be matched along CoWs. This means less information is processed on-chain. Specifically, mempools can be exported from protocols on various chains and rollups to a mempool auction contract on Mantis. Here, an auction allows searchers and/or builders to match pending mempool transactions.
-
-Moreover, protocols will be able to export swaps to Mantis. Here, Mantis solvers create and execute solutions to these transactions, just as they would for intentions submitted directly in Mantis. Thus, apps’ transactions or intentions can be solved and settled on Mantis. This can reduce costs and operational complexity for deploying order flow auctions (OFAs) for these apps. It also means protocols will not need to design and onboard their own solvers and solver infrastructure.
-
-#### Domain Exchange
-
-Domain exchange will grant Mantis the ability to guarantee the same execution while waiting for a rest-of-block transaction versus a top-of-block transaction. In this process, searchers (and builders) can pay to reassign a transaction or transaction set for execution to another domain, so long as the proof of success is equivalent. If they do not provide this proof, they are slashed. Domain exchange can also tap into the Restaking Layer; the searcher momentarily restakes and pays to perform just-in-time reassignment. This sets searchers on the path to building blocks collaboratively and sending them directly to proposers without needing builders.
-
-#### Decentralized Block Building
-
-Through Mantis, blocks will be built on involved chains in a decentralized manner. Specifically, after transactions are solved, they are sent to the Mantis rollup lead sequencer to be built.
-
-Sequencer-based block building involves constructing dummy blocks for all relevant chains. This is accomplished by running full nodes of each chain. Then, the sequencer runs a simulation with multiple different execution clients to build dummy blocks. Order flow auctions will be simulated by the sequencer and screened for MEV. We term this the “pre-auction”. Here, searchers express themselves (single- or cross-domain) into a searcher smart contract. Other sequencers can replay state to check the auction’s success. If fraud occurs, slashing occurs.
-
-Another type of conditioning is arbitrage presented to traders for execution. Price-dependent conditioning and conditioning based on timing (e.g. time to execution) will be available. Moreover, in cross-domain searching, cross-domain MEV can be expressed.

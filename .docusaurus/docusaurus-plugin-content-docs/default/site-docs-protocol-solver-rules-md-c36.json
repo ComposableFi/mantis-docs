@@ -1,0 +1,27 @@
+{
+  "id": "protocol/solver-rules",
+  "title": "solver-rules",
+  "description": "Solver Rules",
+  "source": "@site/docs/protocol/solver-rules.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/solver-rules",
+  "permalink": "/protocol/solver-rules",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/protocol/solver-rules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "protocol",
+  "previous": {
+    "title": "Solvers",
+    "permalink": "/protocol/solvers"
+  },
+  "next": {
+    "title": "Ecosystem",
+    "permalink": "/protocol/ecosystem"
+  }
+}

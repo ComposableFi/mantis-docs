@@ -1,7 +1,7 @@
 {
   "id": "rollup/bridge-contract",
   "title": "Bridge Contract",
-  "description": "Deposits",
+  "description": "The bridge contract interacts with the rollup to facilitate bridging between Mantis (the L2) and its L1, Solana. This occurs over the Inter-Blockchain Communication (IBC) Protocol. The bridge contract connects to an IBC contract to facilitate this connection. A relayer is also used to send information between the Mantis rollup and Solana.",
   "source": "@site/docs/rollup/bridge-contract.md",
   "sourceDirName": "rollup",
   "slug": "/rollup/bridge-contract",
@@ -21,7 +21,7 @@
     "permalink": "/rollup/mantis"
   },
   "next": {
-    "title": "SVM and Sequencer",
-    "permalink": "/rollup/svm-sequencer"
+    "title": "Fee Structure",
+    "permalink": "/rollup/fees"
   }
 }
