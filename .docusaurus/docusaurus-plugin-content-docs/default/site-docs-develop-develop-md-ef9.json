@@ -1,7 +1,7 @@
 {
   "id": "develop/develop",
   "title": "Develop",
-  "description": "Requesting API Keys",
+  "description": "How to Install Rust",
   "source": "@site/docs/develop/develop.md",
   "sourceDirName": "develop",
   "slug": "/develop/",

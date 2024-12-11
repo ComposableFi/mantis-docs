@@ -27,15 +27,13 @@ More details about the code can be found along the links:
 | **Chain** | **Sources** |
 | --- | --- |
 | Ethereum | 0x64E78873057769a5fd9A2278E6820666ec7e87f9 |
-| --- | --- |
 | Mantis/Solana | [AhfoGVmS19tvkEG2hBuZJ1D6qYEjyFmXZ1qPoFD6H4Mj](https://github.com/ComposableFi/emulated-light-client/blob/upgrade/solana/bridge-escrow/programs/bridge-escrow/src/lib.rs) |
-| --- | --- |
 
 ## Mantis V1
 
 In its first iteration, Mantis will accept intents for swaps between Ethereum and Solana (cross-chain intents) as well as swaps just on Ethereum or just on Solana (single-domain intents):
 
-- **Single-Domain Intents:** These are transactions executed entirely within a single blockchain network. The user submits an intent on Ethereum or Solana. Then, the solver provides a solution to the user on the network of choice via the Mantis contractand funds are released to the recipient. Use cases currently include asset swaps within the same blockchain.
+- **Single-Domain Intents:** These are transactions executed entirely within a single blockchain network. The user submits an intent on Ethereum or Solana. Then, the solver provides a solution to the user on the network of choice via the Mantis contract and funds are released to the recipient. Use cases currently include asset swaps within the same blockchain.
 - **Cross-Chain Intents**: These involve transactions that transfer assets between different blockchain networks. The user submits an intent on the source chain. Then, the Solver provides a solution to the user on the destination chain and the Mantis contract coordinates cross-chain communication via IBC to release funds to the Solver on the source chain. Use cases include swapping assets from one chain to another.
 
 The architecture of Mantis v1 is as follows:
