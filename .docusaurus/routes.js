@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '2a7'),
+    component: ComponentCreator('/', '39f'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'be1'),
+        component: ComponentCreator('/', '9f0'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'b8d'),
+            component: ComponentCreator('/', 'f4f'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -159,6 +159,12 @@ export default [
               {
                 path: '/rollup/mantis',
                 component: ComponentCreator('/rollup/mantis', '605'),
+                exact: true,
+                sidebar: "rollup"
+              },
+              {
+                path: '/rollup/rebasing',
+                component: ComponentCreator('/rollup/rebasing', '07c'),
                 exact: true,
                 sidebar: "rollup"
               },

@@ -1,7 +1,7 @@
 {
   "id": "protocol/solver-rules",
-  "title": "solver-rules",
-  "description": "Solver Rules",
+  "title": "Solver Rules",
+  "description": "Solver Competition Rules for OFAs",
   "source": "@site/docs/protocol/solver-rules.md",
   "sourceDirName": "protocol",
   "slug": "/protocol/solver-rules",

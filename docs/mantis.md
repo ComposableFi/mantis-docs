@@ -37,6 +37,6 @@ The Mantis documentation contains the following categories:
 
 **[Mantis Protocol](../docs/protocol/mantis.md):** Learn about the core features of the Mantis protocol.
 
-**[Operate](../docs/operate/mantis.md):**: If you’re interested in becoming a solver on the Mantis framework, navigate here to find all of the resources you need.
+**[Operate](../docs/operate/mantis.md):** If you’re interested in becoming a solver on the Mantis framework, navigate here to find all of the resources you need.
 
 **[Develop](../docs/develop/develop.md):** There are many benefits to building on the Mantis tech stack - check out how you can leverage Mantis as a protocol or a developer.

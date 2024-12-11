@@ -2,11 +2,11 @@
 sidebar_position: 4
 ---
 
-### Solver Rules
+# Solver Rules
 
-#### Solver Competition Rules for OFAs
+## Solver Competition Rules for OFAs
 
-Solvers on the Mantis solver network must adhere to a comprehensive set of rules when providing intent solutions to an order flow auction (OFA). More information on how auctions work on Mantis is available here.
+Solvers on the Mantis solver network must adhere to a comprehensive set of rules when providing intent solutions to an order flow auction (OFA). More information on how auctions work on Mantis is available [here](../protocol/solvers.md).
 
 These rules are designed to ensure fair competition, maintain system integrity, and optimize user outcomes. The rules are divided into two categories: those enforced directly by the protocol (through the auctioneer or smart contracts) and those governed by off-chain agreements.
 
@@ -30,7 +30,7 @@ These rules are designed to ensure fair competition, maintain system integrity, 
 
 2.3 **Rationale for Punishment**: The strict penalty system serves a crucial purpose: it incentivizes solvers to follow through on their commitments. This approach is grounded in economic theory and has been shown to lead to optimal intent execution under various conditions. For a deeper understanding of this mechanism, interested parties are encouraged to review literature on "Contingent Fees in Order Flow Auctions."
 
-##### **Solver Economics**
+## **Solver Economics**
 
 **Profit Model**: On Mantis, solver profitability is based on a simple equation:
 
@@ -44,7 +44,7 @@ This model encourages solvers to optimize their operations, seeking the most eff
 - Optimize gas usage on destination chains
 - Make strategic bidding with realistic execution capabilities
 
-#### Solver Competition Rules for RFQs
+## Solver Competition Rules for RFQs
 
 The solver process for Request for Quotes (RFQs) is structured into two distinct phases:
 

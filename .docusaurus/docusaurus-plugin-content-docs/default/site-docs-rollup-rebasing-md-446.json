@@ -1,0 +1,23 @@
+{
+  "id": "rollup/rebasing",
+  "title": "Rebasing",
+  "description": "The yield for rebasing tokens on Mantis comes from the tokens which are deposited on marginfi. Users deposit tokens on the bridge contract which get deposited into marginfi and restaking vaults. The token gets bridged to Mantis in the same transaction. The rebasing tokens on Mantis have two supply values, which help calculate the actual price of the rebasing token.",
+  "source": "@site/docs/rollup/rebasing.md",
+  "sourceDirName": "rollup",
+  "slug": "/rollup/rebasing",
+  "permalink": "/rollup/rebasing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/rollup/rebasing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "rollup",
+  "previous": {
+    "title": "Rollup Transaction Lifecycle",
+    "permalink": "/rollup/tx-lifecycle"
+  }
+}
