@@ -174,9 +174,7 @@ An example Mantis solver algorithm can be viewed [here](https://github.com/Compo
 
 ### Fast Bridge
 
-WWe are implementing an architecture that allows fast bridging of swaps along our IBC-connected infrastructure. Users will be able to indicate they would like to participate in fast bridging as a part of their intent specifications. Initially, fast bridging will only be supported for limit orders.
-
-A contract on both sides (i.e. both the source chain and the destination chain) allows the user to get their funds from the market maker quickly. A USDT pool on both sides of the transaction enables USDT to be quickly transferred in this manner. The market maker will be able to tap into an endpoint for rebalancing. The market maker can swap out of this pool. 
+We have implemented an architecture that allows fast bridging of swaps along our IBC-connected infrastructure. A contract on both sides (i.e. both the source chain and the destination chain) allows the user to get their funds from the market maker quickly. A USDT pool on both sides of the transaction enables USDT to be quickly transferred in this manner. The market maker will be able to tap into an endpoint for rebalancing. The market maker can swap out of this pool. 
 
 This works as follows:
 1. A user submits an intent and opts for fast bridging. Market makers listen to new intents being broadcast to the Mantis smart contract (which communicates with the Picasso IBC bridge).
@@ -216,24 +214,24 @@ The solutions could be ranked based on:
 
 The solver would then assign a utility value to each potential solution based on these factors, with higher utility scores given to solutions that best meet or exceed the user's specified intent. This allows the system to efficiently identify and execute the most favorable trade for the user within the constraints of their intent.
 
-Auction Timeline
+### Auction Timeline
 
 - The auction begins when the intent is stored in the rollup.
-- It concludes after a predetermined AUCTION_TIMEOUT period (to be decided).
+- It concludes after the predetermined AUCTION_TIMEOUT period.
 
-Auction Mechanism
+### Auction Mechanism
 
-- The auction is conducted in an English auction style that ends at specific time AUCTION_TIMEOUT (4 seconds on solana and 10 seconds on ethereum) in the auction smart contract.
+- The auction is conducted in an English auction style that ends at specific time AUCTION_TIMEOUT in the auction smart contract.
 - Solvers can place bids until the auction ends, with each new bid required to exceed the previous one.
 
-Post-Auction
+### Post-Auction
 
 - Upon auction completion, the auctioneer:
   - Emits an event announcing the winning solver.
   - Records the intent and solver solution on the destination chain.
 - The winning solver can then execute its solution on the destination chain.
 
-# Failure
+## Failure
 
 There are three types of fundamental failures in this system:
 
@@ -249,7 +247,7 @@ In the third case, either the user's or solver's funds (depending on whether the
 
 These mechanisms ensure that users can recover their assets in case of system failures or non-performance by solvers, maintaining the safety and reliability of the cross-chain operations.
 
-# Execution and Penalties
+## Execution and Penalties
 
 If a solver fails to properly execute the solution:
 
@@ -260,7 +258,7 @@ If the executed solution doesn't match the committed solution:
 
 - The agent will be unable to withdraw user funds.
 
-# Costs
+## Costs
 
 Costs on the Mantis Protocol include Protocol Fees and Submission Gas
 
@@ -269,7 +267,7 @@ Costs on the Mantis Protocol include Protocol Fees and Submission Gas
 Introductory fees (protocol fees) are as follows:
 
 - Solana single domain: 0.1% of the token in
-- Ethereum single domain - 0.1% of the token in
+- Ethereum single domain: 0.1% of the token in
 
 ## Submission Gas Cost
 

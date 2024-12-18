@@ -1,15 +1,15 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 # Rollup Transaction Lifecycle
 
 Transactions settle down from layer 2 (the Mantis rollup) to layer 1 (the destination chain of the transaction):
 
-1. Transactions on the Mantis rollup are used to construct blocks by the Mantis rollup validators. In this way, rollup validators also act as block builders.
-2. The blocks of Mantis rollup transactions are picked up by the sequencer on Mantis.
-3. Sequencers send blocks to the Mantis bridge contract.
-4. The bridge contract subsequently sends transactions out over IBC using a light client that we have created between L1 and L2.
-5. Via the IBC relay (note: NOT the sequencer), blocks of transactions post to the final layer 1.
+1. Transactions on the Mantis rollup are used to construct blocks by the Mantis rollup validator client (the sequencer). In this way, rollup validators also act as block builders. 
+2. The blocks of Mantis rollup transactions are picked up by the relayer on Mantis. 
+3. The relayer sends blocks to the Mantis bridge contract.
+4. The bridge contract subsequently sends transactions out over IBC using a light client that we have created between L1 and L2. 
+5. Via the IBC relay (note: NOT the sequencer), blocks of transactions post to the final layer 1. 
 6. The layer 1 validates the layer 2 blocks; if the L1 says a transaction/block is invalid, the layer 2 rolls back.
 
 This transaction lifecycle is depicted in the following diagram:

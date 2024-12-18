@@ -22,7 +22,7 @@ These rules are designed to ensure fair competition, maintain system integrity, 
 
 1.5 **Liquidity Sources for Swaps**: In the case of swap-type intents, solvers have flexibility in sourcing liquidity. They may utilize their own liquidity reserves or tap into liquidity from Automated Market Makers (AMMs). However, any external liquidity must be secured and committed before the predefined EXECUTION_TIMEOUT.
 
-2\. **Off-Chain Agreements**
+2. **Off-Chain Agreements**
 
 2.1 **Commitment Enforcement**: In scenarios where a solver commits to a solution but fails to execute it, they are required to pay a penalty. This penalty is equal to the exact amount they committed in their solution. The payment should be made to the "Composable Foundation Refund Smart Contract" (note: this name is tentative and subject to change, or the process may be handled entirely off-chain).
 

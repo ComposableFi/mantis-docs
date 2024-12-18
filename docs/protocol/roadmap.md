@@ -85,3 +85,15 @@ The initial design is just-in-time auctions to allow builders to express atomica
 This approach poses two main challenges: the risk of double-signing and the high level of trust placed in the relay. Thus, in the future, Mantis aims to introduce a future blockspace market, where the rights to future blockspace on multiple domains can be bought and sold. This aims to decrease the monopolistic power of sellers selling combinations of blocks while increasing market efficiency.
 
 Both the initial just-in-time auctions and the more advanced combinatorial blockspace future markets are described in detail in the [Mantis Whitepaper](https://assets.website-files.com/65b28e756a8eda2e91e76ca4/6656289f21123d6215091555_MANTIS%20Whitepaper.pdf).
+
+### Decentralized Sequencing
+
+Sequencers are network nodes that play critical roles on a rollup. These roles include:
+
+- Aggregating, ordering, and executing transactions
+- Producing preconfirmations
+- Sending ordered transactions to the data availability layer
+
+The Mantis rollup will have a rotating set of independent sequencers to ensure that these critical functions are not interrupted and to provide censorship-resistance. This further guarantees intents and solutions are accepted before the end of the scoring period. This will also maintain the credibility of scoring and facilitating blockspace auctions.
+
+The Mantis sequencing design will be similar to [AltLayer’s restaked rollup design](https://docs.altlayer.io/altlayer-documentation) that incorporates a decentralized sequencing network into the rollup’s architecture. Anyone will be able to register as a node on the Mantis rollup. Nodes are then able to become validators if they meet the minimum amount of stake. This provides security for the rollup in a manner that incorporates slashing. This further ensures that transaction inclusion on layer 1 is not done in a malicious way. Node operators will be able to provide their own stake or accept delegations. This reduces the barrier to entry by allowing nodes on Mantis to crowdsource their collateral.
