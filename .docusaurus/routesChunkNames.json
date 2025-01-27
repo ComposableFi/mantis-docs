@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-39f": {
+  "/-b56": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-9f0": {
+  "/-986": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-f4f": {
+  "/-fa7": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/concepts/definitions-dea": {
@@ -74,9 +74,21 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---concepts-use-casesc-61-62a"
   },
-  "/develop/-0e4": {
+  "/develop/mantis-sdk-995": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---develop-ef-9-a7c"
+    "content": "content---develop-mantis-sdkafb-107"
+  },
+  "/develop/setup-194": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---develop-setupbdd-ae0"
+  },
+  "/dise/roadmap-297": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---dise-roadmapd-53-6f1"
+  },
+  "/dise/tech-stack-12a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---dise-tech-stack-3-a-6-4a7"
   },
   "/operate/api-fb2": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -121,10 +133,6 @@
   "/rollup/data-types-ac7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---rollup-data-types-74-b-a27"
-  },
-  "/rollup/decentralised-sequencing-6c8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---rollup-decentralised-sequencingced-300"
   },
   "/rollup/fees-8ee": {
     "__comp": "__comp---theme-doc-item-178-a40",

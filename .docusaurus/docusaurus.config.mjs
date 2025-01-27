@@ -69,6 +69,12 @@ export default {
         },
         {
           "type": "docSidebar",
+          "sidebarId": "dise",
+          "position": "left",
+          "label": "DISE"
+        },
+        {
+          "type": "docSidebar",
           "sidebarId": "develop",
           "position": "left",
           "label": "Develop"
@@ -112,7 +118,7 @@ export default {
           "href": "https://github.com/composablefi"
         }
       ],
-      "copyright": "Copyright © 2024 Composable Foundation"
+      "copyright": "Copyright © 2025 Composable Foundation"
     },
     "prism": {
       "theme": {

@@ -1,0 +1,23 @@
+{
+  "id": "dise/tech-stack",
+  "title": "DISE LLM",
+  "description": "Mantis’s proprietary DISE large language model (LLM) is the framework powering personal AI agents on Mantis. DISE is trained specifically with the Mantis SDK framework to make intelligent swaps and execute complex commands across Ethereum, Solana, and beyond.",
+  "source": "@site/docs/dise/tech-stack.md",
+  "sourceDirName": "dise",
+  "slug": "/dise/tech-stack",
+  "permalink": "/dise/tech-stack",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/dise/tech-stack.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "dise",
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/dise/roadmap"
+  }
+}

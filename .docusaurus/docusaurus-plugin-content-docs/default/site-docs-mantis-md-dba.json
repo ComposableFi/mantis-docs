@@ -1,7 +1,7 @@
 {
   "id": "mantis",
   "title": "Introduction",
-  "description": "Mantis is the unified trading app on Solana and Ethereum. The vision is to become a vertically integrated intent pipeline complete with expression, execution, and settlement. This will be accomplished via the Mantis protocol and Mantis rollup.",
+  "description": "Mantis is a revolutionary AI agent stack that delivers a comprehensive suite of products for AI-powered financials.",
   "source": "@site/docs/mantis.md",
   "sourceDirName": ".",
   "slug": "/",

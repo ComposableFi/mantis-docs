@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '39f'),
+    component: ComponentCreator('/', 'b56'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '9f0'),
+        component: ComponentCreator('/', '986'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'f4f'),
+            component: ComponentCreator('/', 'fa7'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -73,10 +73,28 @@ export default [
                 sidebar: "concepts"
               },
               {
-                path: '/develop/',
-                component: ComponentCreator('/develop/', '0e4'),
+                path: '/develop/mantis-sdk',
+                component: ComponentCreator('/develop/mantis-sdk', '995'),
                 exact: true,
                 sidebar: "develop"
+              },
+              {
+                path: '/develop/setup',
+                component: ComponentCreator('/develop/setup', '194'),
+                exact: true,
+                sidebar: "develop"
+              },
+              {
+                path: '/dise/roadmap',
+                component: ComponentCreator('/dise/roadmap', '297'),
+                exact: true,
+                sidebar: "dise"
+              },
+              {
+                path: '/dise/tech-stack',
+                component: ComponentCreator('/dise/tech-stack', '12a'),
+                exact: true,
+                sidebar: "dise"
               },
               {
                 path: '/operate/api',
@@ -141,12 +159,6 @@ export default [
               {
                 path: '/rollup/data-types',
                 component: ComponentCreator('/rollup/data-types', 'ac7'),
-                exact: true,
-                sidebar: "rollup"
-              },
-              {
-                path: '/rollup/decentralised-sequencing',
-                component: ComponentCreator('/rollup/decentralised-sequencing', '6c8'),
                 exact: true,
                 sidebar: "rollup"
               },

@@ -60,11 +60,7 @@ The purpose of DISE is to aggregate information in order to help users make info
 
 DISE is also able to learn from a user’s individual preferences and actions. For example, if a user often asks DISE about memecoins, DISE will recognize this pattern and begin automatically providing information and recommendations for memecoins. You can further influence the “personality” of your AI agent on Mantis by using other AI agents platforms like [Virtuals](https://app.virtuals.io/) or [Eliza](https://elizaos.ai/) to train your own AI agent.
 
-Check out some demos here:
-
-1. <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">1/ The era of DeFAI is here. 🚀<br><br>Meet Mantis: the next-gen AI for DeFi. With Mantis, interacting with decentralized finance is as easy as typing a command.<br><br>No more imagining. It&#39;s happening now.<br><br>Here&#39;s how we completed a complex trade with a few natural prompts—and unlocked… <a href="https://t.co/HoYo5vNp6Z">pic.twitter.com/HoYo5vNp6Z</a></p>&mdash; Mantis (@mantis) <a href="https://twitter.com/mantis/status/1878094789561946313?ref\_src=twsrc%5Etfw">January 11, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-2. <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">1/ The era of DeFAI is here. 🚀<br><br>Meet Mantis: the next-gen AI for DeFi. With Mantis, interacting with decentralized finance is as easy as typing a command.<br><br>No more imagining. It&#39;s happening now.<br><br>Here&#39;s how we completed a complex trade with a few natural prompts—and unlocked… <a href="https://t.co/HoYo5vNp6Z">pic.twitter.com/HoYo5vNp6Z</a></p>&mdash; Mantis (@mantis) <a href="https://twitter.com/mantis/status/1878094789561946313?ref\_src=twsrc%5Etfw">January 11, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+Check out a recent demo [here](https://x.com/mantis/status/1878094789561946313).
 ### The Mantis SDK
 
 The [Mantis Intents Software Development Kit (SDK)](https://github.com/ComposableFi/mantis_sdk/blob/main/README.md) is the execution framework for AI agents on Mantis.This developer toolkit enables seamless integration with and construction on the Mantis Protocol, allowing AI agents and other orderflow originators like DeFi protocols to send swaps and execute transactions. The Mantis SDK routes through the Mantis solver network so AI agents have optimized, cross-chain execution.

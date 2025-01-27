@@ -26,9 +26,24 @@
               "sidebar": "concepts"
             },
             {
-              "id": "develop/develop",
-              "path": "/develop/",
+              "id": "develop/mantis-sdk",
+              "path": "/develop/mantis-sdk",
               "sidebar": "develop"
+            },
+            {
+              "id": "develop/setup",
+              "path": "/develop/setup",
+              "sidebar": "develop"
+            },
+            {
+              "id": "dise/roadmap",
+              "path": "/dise/roadmap",
+              "sidebar": "dise"
+            },
+            {
+              "id": "dise/tech-stack",
+              "path": "/dise/tech-stack",
+              "sidebar": "dise"
             },
             {
               "id": "mantis",
@@ -91,11 +106,6 @@
               "sidebar": "rollup"
             },
             {
-              "id": "rollup/decentralised-sequencing",
-              "path": "/rollup/decentralised-sequencing",
-              "sidebar": "rollup"
-            },
-            {
               "id": "rollup/fees",
               "path": "/rollup/fees",
               "sidebar": "rollup"
@@ -136,10 +146,16 @@
                 "label": "protocol/mantis"
               }
             },
+            "dise": {
+              "link": {
+                "path": "/dise/tech-stack",
+                "label": "dise/tech-stack"
+              }
+            },
             "develop": {
               "link": {
-                "path": "/develop/",
-                "label": "develop/develop"
+                "path": "/develop/setup",
+                "label": "develop/setup"
               }
             },
             "operate": {
