@@ -1,0 +1,23 @@
+{
+  "id": "dise/roadmap",
+  "title": "Roadmap",
+  "description": "A roadmap of use cases we plan to build for personalized AI agents is found below:",
+  "source": "@site/docs/dise/roadmap.md",
+  "sourceDirName": "dise",
+  "slug": "/dise/roadmap",
+  "permalink": "/dise/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/dise/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "dise",
+  "previous": {
+    "title": "DISE LLM",
+    "permalink": "/dise/tech-stack"
+  }
+}

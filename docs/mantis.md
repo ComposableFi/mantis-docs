@@ -4,10 +4,17 @@ slug: /
 ---
 # Introduction
 
-[Mantis](https://www.mantis.app/) is the unified trading app on Solana and Ethereum. The vision is to become a vertically integrated intent pipeline complete with expression, execution, and settlement. This will be accomplished via the Mantis protocol and Mantis rollup. 
+Mantis is a revolutionary AI agent stack that delivers a comprehensive suite of products for AI-powered financials.
 
+With its proprietary DISE LLM at the core, Mantis enables personalized agents, advanced conditionality, and collaborative vault strategies. These capabilities parallel traditional banking services, brokers, and FinTech earn products, offering users an intuitive and powerful platform for managing their financial needs in decentralized finance (DeFi).
 
-Mantis synergizes with the [Inter-Blockchain Communication (IBC) Protocol](https://www.ibcprotocol.dev/) via the [Picasso Network](https://www.picasso.network/) to deliver secure interoperability. Ultimately, Mantis strives to establish a decentralized market for cross-domain intent expression.
+Mantis is working to deliver a full suite of products for AI-powered financials:
+
+1.  **Personalized Agents (live now):** Tailored to individual user needs, powered by DISE LLM and enhanced by Lady Mantis insights. Initially, users can swap on Ethereum, on Solana, and between the two networks.
+2.  **Agents with Conditionality (coming soon):** Providing advanced preferences and automated portfolio management.
+3.  **Vault Strategies (in the future):** Collaborative and evolving strategies powered by specialized agents, accessible to all users.
+
+By integrating these products with a robust tech stack and innovative AI capabilities, Mantis redefines how users interact with DeFi.
 
 At its core, Mantis operates with a solver network that powers chain abstraction. But what does this actually mean?
 

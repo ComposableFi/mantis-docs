@@ -1,0 +1,23 @@
+{
+  "id": "develop/setup",
+  "title": "Setup",
+  "description": "How to Install Rust",
+  "source": "@site/docs/develop/setup.md",
+  "sourceDirName": "develop",
+  "slug": "/develop/setup",
+  "permalink": "/develop/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/develop/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "develop",
+  "next": {
+    "title": "The Mantis Intents SDK",
+    "permalink": "/develop/mantis-sdk"
+  }
+}

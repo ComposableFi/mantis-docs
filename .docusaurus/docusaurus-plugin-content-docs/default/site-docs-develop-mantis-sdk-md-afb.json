@@ -1,0 +1,23 @@
+{
+  "id": "develop/mantis-sdk",
+  "title": "The Mantis Intents SDK",
+  "description": "The Mantis Software Development Kit (SDK) is a developer toolkit that enables seamless integration with and construction on the Mantis Protocol. The repo for the Mantis Intents SDK is available here.",
+  "source": "@site/docs/develop/mantis-sdk.md",
+  "sourceDirName": "develop",
+  "slug": "/develop/mantis-sdk",
+  "permalink": "/develop/mantis-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/develop/mantis-sdk.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "develop",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/develop/setup"
+  }
+}

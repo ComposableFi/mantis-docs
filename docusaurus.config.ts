@@ -65,37 +65,43 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar', // Signifies that the sidebar is for documentation and will come from the sidebar.ts or js
-          sidebarId: 'concepts',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'concepts',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left', // Represents the position of the item on the top nav bar
           label: 'Concepts',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'rollup',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'rollup',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'Rollup',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'protocol',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'protocol',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'Protocol',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'develop',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'dise',  // Id to target a specific sidebar item in the sidebar.ts
+          position: 'left',
+          label: 'DISE',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'develop',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'Develop',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'operate',  // Id to target a soecific sidebar item in the sidebar.ts
+          sidebarId: 'operate',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'Operate',
         },
         // {
         //   type: 'docSidebar',
-        //   sidebarId: 'user_guides',  // Id to target a soecific sidebar item in the sidebar.ts
+        //   sidebarId: 'user_guides',  // Id to target a specific sidebar item in the sidebar.ts
         //   position: 'left',
         //   label: 'Guides',
         // },

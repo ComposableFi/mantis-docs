@@ -1,7 +1,7 @@
 {
   "id": "concepts/definitions",
   "title": "Definitions",
-  "description": "Block Builder: An entity that constructs blocks from transaction order flow.",
+  "description": "AI Agents: Autonomous systems performing specific tasks by analyzing data, making decisions, and executing actions. AI agents can be used in many fields, but in crypto they are generally used to determine when and how to carry out optimal crypto trades. They can be customized to all sorts of tasks, from optimal portfolio management to copy trading.",
   "source": "@site/docs/concepts/definitions.md",
   "sourceDirName": "concepts",
   "slug": "/concepts/definitions",
