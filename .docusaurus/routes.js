@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'b56'),
+    component: ComponentCreator('/', '6a3'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '986'),
+        component: ComponentCreator('/', '96f'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', 'fa7'),
+            component: ComponentCreator('/', '2a5'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -95,6 +95,18 @@ export default [
                 component: ComponentCreator('/dise/tech-stack', '12a'),
                 exact: true,
                 sidebar: "dise"
+              },
+              {
+                path: '/m/guides',
+                component: ComponentCreator('/m/guides', '486'),
+                exact: true,
+                sidebar: "m"
+              },
+              {
+                path: '/m/overview',
+                component: ComponentCreator('/m/overview', '8c2'),
+                exact: true,
+                sidebar: "m"
               },
               {
                 path: '/operate/api',

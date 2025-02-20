@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/-b56": {
+  "/-6a3": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---aba-d70"
     }
   },
-  "/-986": {
+  "/-96f": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---22-d-307"
   },
-  "/-fa7": {
+  "/-2a5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/concepts/definitions-dea": {
@@ -89,6 +89,14 @@
   "/dise/tech-stack-12a": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---dise-tech-stack-3-a-6-4a7"
+  },
+  "/m/guides-486": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---m-guidesaf-6-50a"
+  },
+  "/m/overview-8c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---m-overview-6-cb-6da"
   },
   "/operate/api-fb2": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -83,6 +83,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'm',  // Id to target a specific sidebar item in the sidebar.ts
+          position: 'left',
+          label: 'M Token',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'dise',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'DISE',

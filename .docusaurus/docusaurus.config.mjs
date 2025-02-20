@@ -69,6 +69,12 @@ export default {
         },
         {
           "type": "docSidebar",
+          "sidebarId": "m",
+          "position": "left",
+          "label": "M Token"
+        },
+        {
+          "type": "docSidebar",
           "sidebarId": "dise",
           "position": "left",
           "label": "DISE"

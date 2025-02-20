@@ -1,0 +1,23 @@
+{
+  "id": "m/guides",
+  "title": "Guides",
+  "description": "$M Claiming Guide",
+  "source": "@site/docs/m/guides.md",
+  "sourceDirName": "m",
+  "slug": "/m/guides",
+  "permalink": "/m/guides",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/m/guides.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "m",
+  "previous": {
+    "title": "$M Token",
+    "permalink": "/m/overview"
+  }
+}

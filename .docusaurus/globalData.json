@@ -46,6 +46,16 @@
               "sidebar": "dise"
             },
             {
+              "id": "m/guides",
+              "path": "/m/guides",
+              "sidebar": "m"
+            },
+            {
+              "id": "m/overview",
+              "path": "/m/overview",
+              "sidebar": "m"
+            },
+            {
               "id": "mantis",
               "path": "/",
               "sidebar": "concepts"
@@ -144,6 +154,12 @@
               "link": {
                 "path": "/protocol/mantis",
                 "label": "protocol/mantis"
+              }
+            },
+            "m": {
+              "link": {
+                "path": "/m/overview",
+                "label": "m/overview"
               }
             },
             "dise": {

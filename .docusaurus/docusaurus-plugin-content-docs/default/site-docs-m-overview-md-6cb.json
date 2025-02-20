@@ -1,0 +1,23 @@
+{
+  "id": "m/overview",
+  "title": "$M Token",
+  "description": "M is the native token of Mantis protocol. It strives to support the Mantis framework and its users while pushing the overall ecosystem further along its decentralization pipeline.",
+  "source": "@site/docs/m/overview.md",
+  "sourceDirName": "m",
+  "slug": "/m/overview",
+  "permalink": "/m/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/m/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "m",
+  "next": {
+    "title": "Guides",
+    "permalink": "/m/guides"
+  }
+}
