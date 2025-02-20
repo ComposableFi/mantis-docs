@@ -44,6 +44,10 @@ The Mantis documentation contains the following categories:
 
 **[Mantis Protocol](../docs/protocol/mantis.md):** Learn about the core features of the Mantis protocol.
 
-**[Operate](../docs/operate/mantis.md):** If you’re interested in becoming a solver on the Mantis framework, navigate here to find all of the resources you need.
+**[M Token](../docs/m/overview.md):** Get to know the native token of Mantis.
 
-**[Develop](../docs/develop/develop.md):** There are many benefits to building on the Mantis tech stack - check out how you can leverage Mantis as a protocol or a developer.
+**[DISE](../docs/dise/tech-stack.md):** DISE is a large language model (LLM) framework powering personal AI agents on Mantis.
+
+**[Operate](../docs/operate/solvers.md):** If you’re interested in becoming a solver on the Mantis framework, navigate here to find all of the resources you need.
+
+**[Develop](../docs/develop/setup.md):** There are many benefits to building on the Mantis tech stack - check out how you can leverage Mantis as a protocol or a developer.

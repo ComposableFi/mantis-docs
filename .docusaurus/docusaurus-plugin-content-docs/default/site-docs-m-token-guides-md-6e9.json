@@ -1,0 +1,18 @@
+{
+  "id": "m-token/guides",
+  "title": "Guides",
+  "description": "$M Claiming Guide",
+  "source": "@site/docs/m-token/guides.md",
+  "sourceDirName": "m-token",
+  "slug": "/m-token/guides",
+  "permalink": "/m-token/guides",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/m-token/guides.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}
