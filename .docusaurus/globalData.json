@@ -36,6 +36,11 @@
               "sidebar": "develop"
             },
             {
+              "id": "dise/prompt-guide",
+              "path": "/dise/prompt-guide",
+              "sidebar": "dise"
+            },
+            {
               "id": "dise/roadmap",
               "path": "/dise/roadmap",
               "sidebar": "dise"
