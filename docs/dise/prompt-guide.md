@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Promt Guide
+# Prompt Guide
 
 **Overview**
 DISE LLM is Mantis’s proprietary framework designed to power personal AI agents for cryptocurrency trading. It aggregates market insights and on-chain data while translating human language into cryptocurrency trading activities. Users provide text input describing their desired actions, and DISE LLM interprets these commands into structured JSON objects for execution.

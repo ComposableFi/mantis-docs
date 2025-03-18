@@ -47,8 +47,13 @@ p {
   background-color: #232323 ;
 }
 
-.markdown img {
-  max-width: none;
-  width: auto;
-  height: auto;
+.markdown img,
+article img,
+.theme-doc-markdown img,
+.markdown-body img,
+main img {
+  max-width: none !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
 }
