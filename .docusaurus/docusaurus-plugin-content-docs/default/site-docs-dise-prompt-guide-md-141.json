@@ -1,0 +1,27 @@
+{
+  "id": "dise/prompt-guide",
+  "title": "Promt Guide",
+  "description": "Overview",
+  "source": "@site/docs/dise/prompt-guide.md",
+  "sourceDirName": "dise",
+  "slug": "/dise/prompt-guide",
+  "permalink": "/dise/prompt-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/dise/prompt-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "dise",
+  "previous": {
+    "title": "DISE LLM",
+    "permalink": "/dise/tech-stack"
+  },
+  "next": {
+    "title": "Roadmap",
+    "permalink": "/dise/roadmap"
+  }
+}

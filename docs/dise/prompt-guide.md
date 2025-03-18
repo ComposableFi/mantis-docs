@@ -95,4 +95,4 @@ If the action is "research", DISE LLM determines what the user wants to learn an
 
 *   _If amounts are inferred, the response includes clarifications._
 *   _Example response message:  
-    "Sure, half of your {asset\_in} equals {asset\_in\_amount}. You will swap {asset\_in\_amount} {asset\_in} for {asset\_out\_amount} {asset\_out}. Would you like to proceed?"_
+    "Sure, half of your asset\_in equals asset\_in\_amount. You will swap asset\_in\_amount asset\_in for asset\_out\_amount asset\_out. Would you like to proceed?"_

@@ -3,56 +3,21 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', '6a3'),
+    component: ComponentCreator('/', '0f8'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '96f'),
+        component: ComponentCreator('/', 'f6e'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '2a5'),
+            component: ComponentCreator('/', '52d'),
             routes: [
               {
                 path: '/concepts/definitions',
@@ -83,6 +48,12 @@ export default [
                 component: ComponentCreator('/develop/setup', '194'),
                 exact: true,
                 sidebar: "develop"
+              },
+              {
+                path: '/dise/prompt-guide',
+                component: ComponentCreator('/dise/prompt-guide', 'e38'),
+                exact: true,
+                sidebar: "dise"
               },
               {
                 path: '/dise/roadmap',

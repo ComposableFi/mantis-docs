@@ -1,7 +1,7 @@
 {
   "id": "m/guides",
-  "title": "Guides",
-  "description": "$M Claiming Guide",
+  "title": "$M Claiming Guide",
+  "description": "1\\. Where to Claim",
   "source": "@site/docs/m/guides.md",
   "sourceDirName": "m",
   "slug": "/m/guides",

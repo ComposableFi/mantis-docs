@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/ComposableFi/mantis-docs/docs/dise/roadmap.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 2
+    "sidebar_position": 3
   },
   "sidebar": "dise",
   "previous": {
-    "title": "DISE LLM",
-    "permalink": "/dise/tech-stack"
+    "title": "Promt Guide",
+    "permalink": "/dise/prompt-guide"
   }
 }
