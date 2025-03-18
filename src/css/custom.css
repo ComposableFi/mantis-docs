@@ -52,8 +52,9 @@ article img,
 .theme-doc-markdown img,
 .markdown-body img,
 main img {
-  max-width: none !important;
-  width: auto !important;
-  height: auto !important;
+  max-width: 786px !important; /* Ensure it doesn't overflow container */
+  width: auto !important; /* Use original width unless it exceeds container */
+  height: auto !important; /* Maintain aspect ratio */
   object-fit: contain !important;
+  display: inline-block !important;
 }
