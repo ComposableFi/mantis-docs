@@ -1,10 +1,7 @@
 ---
 sidebar_position: 2
 ---
-
-# Guides
-
-## $M Claiming Guide
+# $M Claiming Guide
 
 ### 1\. Where to Claim
 

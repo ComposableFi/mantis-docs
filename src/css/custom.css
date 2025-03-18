@@ -46,3 +46,9 @@ p {
 .footer--dark {
   background-color: #232323 ;
 }
+
+.markdown img {
+  max-width: none;
+  width: auto;
+  height: auto;
+}
