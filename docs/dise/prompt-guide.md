@@ -55,6 +55,7 @@ If the action is "research", DISE LLM determines what the user wants to learn an
 3.  **Token Balance**
     *   Only supports checking balance for **one token at a time.**
     *   If no token is specified, an error message is returned.
+  
 ![image3](pg3.png)
 
 4.  **Smart Money Activity**
