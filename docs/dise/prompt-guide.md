@@ -57,9 +57,6 @@ Discuss crypto concepts, get explanations, or engage in casual conversation.
 
 | Prompt | Description |
 |--------|-------------|
-| `Return funds to original wallet` | Transfer funds from Agent Portfolio to your connected wallet after successful limit order |
-| `What is the value of my agent portfolio?` | View your Agent Portfolio balance and holdings |
-| `What is the value of my connected wallet?` | Check the balance of your wallet connected to Mantis |
 | `Show me my limit orders` | Display all your limit orders |
 | `Show me my active limit orders` | View currently active limit orders |
 | `Show me my successful limit orders` | View completed limit orders |
@@ -168,9 +165,7 @@ DISE LLM currently supports operations on the following networks:
 
 - Solana
 - Ethereum
-- Arbitrum
-- Base
-- [Other supported networks]
+- [Other supported networks coming soon]
 
 Note that some features may be network-specific. For example, Smart Money analysis is currently only available for Solana.
 
