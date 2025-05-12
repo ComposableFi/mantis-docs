@@ -27,7 +27,7 @@ DISE LLM handles three main types of interactions:
 Execute buys, sells, swaps, and set limit orders across supported networks.
 
 ### 2. Market Research
-Access token information, price data, wallet analysis, and market trends.
+Access token information, price data (including price predictions via Allora), wallet analysis, and market trends.
 
 ### 3. General Chat
 Discuss crypto concepts, get explanations, or engage in casual conversation.
@@ -74,6 +74,13 @@ Discuss crypto concepts, get explanations, or engage in casual conversation.
 | `What's the 24h volume for BONK?` | Get trading volume information |
 | `How much liquidity does JTO have?` | Check liquidity depth for a token |
 | `When was PYTH created?` | Get token creation date |
+
+### Price Predictions via Allora's Predictive Price Feeds
+
+| Prompt | Description |
+|--------|-------------|
+| `What is your prediction on BTC price?` | Get 8-hour price prediction for BTC |
+| `What price do you predict for SOL in 24 hours?` | Get 24-hour price prediction for SOL |
 
 ### Balance Checks
 
