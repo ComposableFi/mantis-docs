@@ -34,7 +34,7 @@ These rules are designed to ensure fair competition, maintain system integrity, 
 
 **Profit Model**: On Mantis, solver profitability is based on a simple equation:
 
-Profit = Surplus from Trade Execution - Gas Cost on Destination Chain - Cost of IBC Message
+Profit = Surplus from Trade Execution - Gas Cost on Destination Chain - Cost of Message
 
 This model encourages solvers to optimize their operations, seeking the most efficient execution paths while managing their costs effectively.
 
