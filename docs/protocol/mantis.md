@@ -49,7 +49,7 @@ The architecture of Mantis v1 is as follows:
 
 This architectural flow is summarized below:
 
-![mantis](../protocol/protocol.png)
+![mantis](../protocol/architectural-flow.png)
 ## Trust Assumptions
 
 Trust assumptions of Mantis include:
