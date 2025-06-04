@@ -193,7 +193,7 @@ This is shown below, with the numbers representing the corresponding steps above
 Each intent’s right of execution is auctioned through a mechanism similar to an English auction. The solver that commits to maximize the intent’s utility, as determined by the scoring rule, is allocated the right to execute it.
 
 ## Auctioneer
-Although the Auctioneer exists off-chain to execute the store_intent() function on relevant chains, Solvers can detect any dishonest behavior. Since Solvers will also listen to intents on the Rollup, they can compare these with what the Auctioneer stores on-chain. If there’s a discrepancy, Solvers will know the Auctioneer is cheating.  
+Although the Auctioneer exists off-chain to execute the store_intent() function on relevant chains, Solvers can detect any dishonest behavior. Since Solvers will also listen to intents, they can compare these with what the Auctioneer stores on-chain. If there’s a discrepancy, Solvers will know the Auctioneer is cheating.  
 
 ![auctonieer](../protocol/auctioneer.png)
 
@@ -216,7 +216,7 @@ The solver would then assign a utility value to each potential solution based on
 
 ### Auction Timeline
 
-- The auction begins when the intent is stored in the rollup.
+- The auction begins when the intent is received by the Mantis protocol.
 - It concludes after the predetermined AUCTION_TIMEOUT period.
 
 ### Auction Mechanism
