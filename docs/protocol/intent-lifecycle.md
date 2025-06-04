@@ -37,10 +37,6 @@ The winning Solver proceeds to execute the transaction:
 
 Upon successful execution, the recipient receives the output tokens on the destination chain. If the intent fails or times out, the escrow contract ensures funds are returned to the original sender. Tokens escrowed by the user are now released to the solver.The solver can recover whatever tokens they deposited in order to secure the user's payment.
 
-**7\. Rollup Records Transaction**
-
-The transaction details are stored in the Rollup, ensuring data integrity (all transaction data is securely stored and can be audited) and scalability (efficient storage of transaction data without overloading the blockchain).
-
 ## Examples
 
 ### Single-Domain Swap Intent
@@ -54,7 +50,7 @@ Process:
 3. Auction Process: The Auctioneer detects the intent and broadcasts it to Solvers, who submit bids with proposed USDT amounts.
 4. Intent Update: The Auctioneer selects the best bid and updates the intent using updateIntent.
 5. Execution: The winning Solver calls releaseFunds on Ethereum's escrow contract, and the contract releases the specified amount of USDT to the user's address.
-6. Completion: The user receives USDT, and the transaction is recorded in the Rollup.
+6. Completion: The user receives USDT, and the transaction is recorded onchain.
 
 ### Cross-Chain Swap Intent
 
@@ -68,7 +64,7 @@ Process:
 4. Intent Update: The Auctioneer selects the best bid and updates the intent using updateIntent.
 5. Execution: The winning Solver initiates an IBC transfer by sending an ICS20-transfer packet from Ethereum to Solana, encoding intent data in the packet's memo field.
 6. Destination Processing: Solana's IBC module processes the packet, calls onReceiveTransfer on Solana's escrow contract, and the contract releases 0.2 SOL to the user's Solana address.
-7. Completion: The user receives SOL on Solana, and the transaction is recorded in the Rollup.
+7. Completion: The user receives SOL on Solana, and the transaction is recorded.
 8. Failure Handling: If the transfer fails or times out, the escrow contract on Ethereum allows the user to reclaim their 10 ETH.
 
 # Security
