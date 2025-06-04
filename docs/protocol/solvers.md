@@ -33,7 +33,7 @@ Orders will be submitted privately to Mantis on a remote procedure call (RPC).
 
 **Mantis accepts both cross-chain and single domain orders.** Initially, Mantis will be compatible with swaps. Later, Mantis will be able to accept many order types: time-weighted average prices, bracket orders, looping, block trades, conditional trades, centralized exchange interactions, and intent-based bridging.
 
-Mantis can also interact with a range of protocols, from basic to complicated. The eventual goal is to facilitate any functionality, so long as it is on an IBC-connected chain (e.g. those connected by [Picasso](https://docs.picasso.network/)).
+Mantis can also interact with a range of protocols, from basic to complicated. The eventual goal is to facilitate any functionality.
 
 Initially, solvers can generate solutions to intents by:
 
@@ -177,7 +177,7 @@ An example Mantis solver algorithm can be viewed [here](https://github.com/Compo
 We have implemented an architecture that allows fast bridging of swaps along our IBC-connected infrastructure. A contract on both sides (i.e. both the source chain and the destination chain) allows the user to get their funds from the market maker quickly. A USDT pool on both sides of the transaction enables USDT to be quickly transferred in this manner. The market maker will be able to tap into an endpoint for rebalancing. The market maker can swap out of this pool. 
 
 This works as follows:
-1. A user submits an intent and opts for fast bridging. Market makers listen to new intents being broadcast to the Mantis smart contract (which communicates with the Picasso IBC bridge).
+1. A user submits an intent and opts for fast bridging. Market makers listen to new intents being broadcast to the Mantis smart contract.
 2. Market makers distribute USDT to the user through the Mantis smart contract.
 3. The market maker asks the smart contract to be sure these tokens were sent to the user. The smart contract on the destination chain sends a cross-chain message indicating this to a smart contract on the destination chain.
 4. A cross-chain message is sent allowing the market maker to claim the USDT from an intent.
