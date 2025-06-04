@@ -35,9 +35,9 @@ Many projects within the DeFi space can leverage Mantis by tapping into the remo
 
 Some examples of these projects that can benefit from integrating Mantis are as follows:
 
-**Crypto Wallets:** Wallets can use Mantis to become intent-centric. This allows their users to submit intents for their desired crypto transaction outcomes. Intent settlement will then be carried out and optimized by Mantis solvers. Intents are executed on any chain that is connected to IBC using the optimal solution achieved. This delivers best execution for users while providing a streamlined UX within the existing wallet UI.
+**Crypto Wallets:** Wallets can use Mantis to become intent-centric. This allows their users to submit intents for their desired crypto transaction outcomes. Intent settlement will then be carried out and optimized by Mantis solvers. Intents are executed on any compatible chain using the optimal solution achieved. This delivers best execution for users while providing a streamlined UX within the existing wallet UI.
 
-**Order Flow Originators:** Any protocols that originate order flow can integrate Mantis to process orders. This can make these protocols intent-centric and provides chain-agnostic intent settlement over IBC.
+**Order Flow Originators:** Any protocols that originate order flow can integrate Mantis to process orders. This can make these protocols intent-centric and provides chain-agnostic intent settlement.
 
 **Trading Bots:** Bots’ strategy algorithms can use Mantis-based trading opportunities. Settlement of these trades will then be optimized by Mantis solvers, providing best execution to users. Bot projects benefit from this opportunity financially; any bot that has partnered with Mantis and directs unique order flow to Mantis automatically receives that revenue share, once Mantis processes the given order.
 
