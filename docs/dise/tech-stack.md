@@ -110,8 +110,6 @@ Initially, each personalized AI agent will be hosted by Mantis internally. Event
 
 These specialized electronic circuits are able to perform high volumes of processing and calculations. This will provide compute power for personalized AI agents on Mantis. This will also allow full decentralization of AI agents, which is a priority for Mantis.
 
-## The Mantis Solver Network & Cross-Chain Execution
+## The Mantis Solver Network
 
 Solvers on Mantis compete to provide the best execution for orderflow. Read more about the Mantis solver network [here](https://docs.mantis.app/protocol/solvers).
-
-Cross-chain settlement of AI-generated orderflow on Mantis is carried out over [Inter-Blockchain Communication (IBC) Protocol](https://ibcprotocol.dev/) connections. Thanks to the [Picasso Network](https://www.picasso.network/)’s work expanding IBC, Mantis is natively interoperable with both Solana and Ethereum.
