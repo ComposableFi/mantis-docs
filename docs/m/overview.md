@@ -68,24 +68,9 @@ Allocated to core contributors of Mantis supporting continued development and gr
 
 The $M token is the native token for the Mantis framework, and was created to help fulfill long-term goals of the Mantis ecosystem. Mantis plans to propose various $M token use cases via decentralized governance. Utilities for the $M token that we plan to propose include:
 
-### Network Security/Decentralization
-
-$M token is used to decentralize the network validators.
-
-### Value Accrual for Token Stakers
-
-A portion of value generated on Mantis will flow to $M token stakers as a reward for helping to secure the Mantis network. This includes a percentage of the following value sources:
-
-*   Value from swaps
-*   MEV generated
-
 ### Governance Rights
 
 At Mantis, we believe it is important for the community to have a significant role in decentralization and governance of the ecosystem. Thus, the $M token is used for governance of the Mantis framework, with tokenholders being able to propose/discuss governance initiatives via the [Mantis Governance forum](https://forum.mantis.app/) and then vote on these initiatives via [Realms](https://www.realms.today/).
-
-### Fee Sharing & Discounts
-
-M token stakers will be eligible for receiving a portion of fees accumulated on Mantis. They will also be able to receive discounted fees themselves.
 
 ### Solver Bonds
 
