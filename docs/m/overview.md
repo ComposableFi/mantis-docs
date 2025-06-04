@@ -70,13 +70,12 @@ The $M token is the native token for the Mantis framework, and was created to he
 
 ### Network Security/Decentralization
 
-$M token may be staked to secure the Mantis rollup. $M token is also used to decentralize the network validators
+$M token is used to decentralize the network validators.
 
 ### Value Accrual for Token Stakers
 
 A portion of value generated on Mantis will flow to $M token stakers as a reward for helping to secure the Mantis network. This includes a percentage of the following value sources:
 
-*   Value from native yield
 *   Value from swaps
 *   MEV generated
 
