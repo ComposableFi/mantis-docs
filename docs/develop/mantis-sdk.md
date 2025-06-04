@@ -31,9 +31,7 @@ As a result, protocols and applications are able to tap into the benefits of Man
 - Optimized routing
 - Incentivization for ecosystem participants
 
-Many projects within the DeFi space can leverage Mantis by tapping into the remote procedure call (RPC) of the Mantis Intent Software Development Kit (SDK). This is shown below:
-![dev](../develop/develop.png)
-
+Many projects within the DeFi space can leverage Mantis by tapping into the remote procedure call (RPC) of the Mantis Intent Software Development Kit (SDK). 
 
 Some examples of these projects that can benefit from integrating Mantis are as follows:
 
