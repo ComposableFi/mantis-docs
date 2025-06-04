@@ -6,7 +6,7 @@ slug: /
 
 Mantis is a revolutionary AI agent stack that delivers a comprehensive suite of products for AI-powered financials.
 
-With its proprietary DISE LLM at the core, Mantis enables personalized agents, advanced conditionality, and collaborative vault strategies. These capabilities parallel traditional banking services, brokers, and FinTech earn products, offering users an intuitive and powerful platform for managing their financial needs in decentralized finance (DeFi).
+With its proprietary DISE LLM at the core, Mantis enables a new era of streamlined and optimized decentralized finance (DeFi) including personalized agents, advanced conditionality, and collaborative vault strategies. These capabilities parallel traditional banking services, brokers, and FinTech earn products, offering users an intuitive and powerful platform for managing their financial needs in DeFi.
 
 Mantis is working to deliver a full suite of products for AI-powered financials:
 
@@ -23,7 +23,6 @@ At its core, Mantis operates with a solver network that powers chain abstraction
 Mantis optimizes intent settlement via a network of entities called **Solvers**. These solvers compete to provide best execution for intents. Unlike other existing intent frameworks, intents are chain-agnostic on Mantis. This means intent can be accepted from various chains and applications with final settlement to any IBC-enabled blockchain.
 :::
 - **CoWs:** Coincidence of Wants (CoWs) is an occurrence when one party’s desired transaction is coincidentally the opposite of another party’s desired transaction. Thus, these two transactions can be used to settle one another as opposed to leveraging a third party intermediary like an exchange. Settlement via CoWs is generally optimal to settlement on exchanges as it means there are no fees or delays caused by participation of a third party.
-- **Native yield:** Mantis Accounts are network-level accounts on the Mantis Rollup that can be used for participating in on-chain actions. Mantis Account users will earn native yield for any assets deposited to the Mantis L2. Therefore, assets held in Mantis Accounts earn yield even when not actively being used.
 - **Single and cross-chain OFAs:** Order flow auctions (OFAs) are mechanisms for transaction settlement optimization. In these auctions, a bidding system with a third party ensures users capture as much value as possible from their transactions. In the case of Mantis, solvers participate as bidders in the OFA, presenting optimized solutions. Then, the auctioneer selects the winning bidder (i.e. the solver presenting the best solution to the user intent).
 
 **This is the future for how users will interact and curate on-chain experiences.**
@@ -39,8 +38,6 @@ Through this architecture, key benefits to users are:
 The Mantis documentation contains the following categories:
 
 **[Learn](../docs/concepts/learn.md):** This is the perfect place for you to find out the core concepts driving Mantis.
-
-**[Mantis Rollup](../docs/rollup/mantis.md):** Here, we describe the Solana Virtual Machine rollup that houses Mantis.
 
 **[Mantis Protocol](../docs/protocol/mantis.md):** Learn about the core features of the Mantis protocol.
 
