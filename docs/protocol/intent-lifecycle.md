@@ -54,7 +54,7 @@ Process:
 
 ### Cross-Chain Swap Intent
 
-Scenario: A user wants to swap 10 ETH on Ethereum for 0.2 SOL on Solana.
+Scenario: A user wants to swap 10 ETH on Ethereum for 0.2 SOL on Solana. 
 
 Process:
 
@@ -70,4 +70,3 @@ Process:
 # Security
 
 The system is designed to be decentralized and trust-minimized ensuring user control (users initiate intents directly on-chain, retaining control over their funds until execution), transparency (all actions are recorded on the blockchain for independent verification), strict access controls (contracts enforce permissions so only the Auctioneer can call updateIntent and only the winning Solver can call releaseFunds), and fallback mechanisms (timeouts and cancellation options protect users in case of execution delays or failures).
-
