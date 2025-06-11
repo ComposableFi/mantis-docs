@@ -22,7 +22,7 @@ Each contract has 3 main functions:
 2. \`updateIntent(IntentId, amountOut: UInt, winnerSolver: Address)\`. This funciton is only callable by auctioneers and is used to refine information about the intent.
 3. \`releaseFunds(SolverTransfer)\`. This function is called by a solver that decided to process the intent, in particular, this will release the funds to the recipient account.
 
-More details about the code can be found along the links:
+More details about the code can be found along the links:  
 
 | **Chain** | **Sources** |
 | --- | --- |
