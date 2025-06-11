@@ -71,12 +71,6 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'rollup',  // Id to target a specific sidebar item in the sidebar.ts
-          position: 'left',
-          label: 'Rollup',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'protocol',  // Id to target a specific sidebar item in the sidebar.ts
           position: 'left',
           label: 'Protocol',
