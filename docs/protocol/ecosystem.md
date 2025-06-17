@@ -12,4 +12,4 @@ If you’re interested in partnering with Mantis to integrate our technology, pl
 
 The Mantis ecosystem:
 
-![eco](../protocol/ecosystem-june-4th-2025.png)
+![eco](../protocol/ecosystem June 17th 2025.png)
